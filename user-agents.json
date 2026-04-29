@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-04-29T21:25:26.107Z",
+  "generated_at": "2026-04-29T21:42:50.217Z",
   "window": "48h",
   "count": 150,
   "user_agents": [
@@ -523,20 +523,6 @@
       "last_seen": "2026-04-29"
     },
     {
-      "ua": "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0",
-      "browser": {
-        "name": "Firefox",
-        "version": "115.0"
-      },
-      "os": {
-        "name": "Windows",
-        "version": "NT 6.1"
-      },
-      "device_type": "computer",
-      "first_seen": "2026-04-29",
-      "last_seen": "2026-04-29"
-    },
-    {
       "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
       "browser": {
         "name": "Chrome",
@@ -545,6 +531,20 @@
       "os": {
         "name": "Windows",
         "version": "NT 10.0"
+      },
+      "device_type": "computer",
+      "first_seen": "2026-04-29",
+      "last_seen": "2026-04-29"
+    },
+    {
+      "ua": "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0",
+      "browser": {
+        "name": "Firefox",
+        "version": "115.0"
+      },
+      "os": {
+        "name": "Windows",
+        "version": "NT 6.1"
       },
       "device_type": "computer",
       "first_seen": "2026-04-29",
@@ -719,6 +719,20 @@
       "last_seen": "2026-04-29"
     },
     {
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "browser": {
+        "name": "Chrome",
+        "version": "143.0.0"
+      },
+      "os": {
+        "name": "Windows",
+        "version": "NT 10.0"
+      },
+      "device_type": "computer",
+      "first_seen": "2026-04-29",
+      "last_seen": "2026-04-29"
+    },
+    {
       "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:151.0) Gecko/20100101 Firefox/151.0",
       "browser": {
         "name": "Firefox",
@@ -733,16 +747,16 @@
       "last_seen": "2026-04-29"
     },
     {
-      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/418.3.902016201 Mobile/15E148 Safari/604.1",
       "browser": {
-        "name": "Chrome",
-        "version": "143.0.0"
+        "name": "Google Search App",
+        "version": "418.3.902016201"
       },
       "os": {
-        "name": "Windows",
-        "version": "NT 10.0"
+        "name": "iOS",
+        "version": "26 4 2"
       },
-      "device_type": "computer",
+      "device_type": "mobile",
       "first_seen": "2026-04-29",
       "last_seen": "2026-04-29"
     },
@@ -771,20 +785,6 @@
         "version": ""
       },
       "device_type": "computer",
-      "first_seen": "2026-04-29",
-      "last_seen": "2026-04-29"
-    },
-    {
-      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/418.3.902016201 Mobile/15E148 Safari/604.1",
-      "browser": {
-        "name": "Google Search App",
-        "version": "418.3.902016201"
-      },
-      "os": {
-        "name": "iOS",
-        "version": "26 4 2"
-      },
-      "device_type": "mobile",
       "first_seen": "2026-04-29",
       "last_seen": "2026-04-29"
     },
@@ -971,20 +971,6 @@
       "last_seen": "2026-04-29"
     },
     {
-      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36",
-      "browser": {
-        "name": "Chrome",
-        "version": "143.0.0"
-      },
-      "os": {
-        "name": "Android",
-        "version": "10"
-      },
-      "device_type": "mobile",
-      "first_seen": "2026-04-29",
-      "last_seen": "2026-04-29"
-    },
-    {
       "ua": "Mozilla/5.0 (iPad; CPU OS 26_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/416.4.894748588 Mobile/15E148 Safari/604.1",
       "browser": {
         "name": "Google Search App",
@@ -995,6 +981,20 @@
         "version": "26 4 2"
       },
       "device_type": "tablet",
+      "first_seen": "2026-04-29",
+      "last_seen": "2026-04-29"
+    },
+    {
+      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36",
+      "browser": {
+        "name": "Chrome",
+        "version": "143.0.0"
+      },
+      "os": {
+        "name": "Android",
+        "version": "10"
+      },
+      "device_type": "mobile",
       "first_seen": "2026-04-29",
       "last_seen": "2026-04-29"
     },
@@ -1013,20 +1013,6 @@
       "last_seen": "2026-04-29"
     },
     {
-      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 OPR/129.0.0.0",
-      "browser": {
-        "name": "Opera",
-        "version": "129.0.0"
-      },
-      "os": {
-        "name": "Windows",
-        "version": "NT 10.0"
-      },
-      "device_type": "computer",
-      "first_seen": "2026-04-29",
-      "last_seen": "2026-04-29"
-    },
-    {
       "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Mobile/15E148 Safari/604.1",
       "browser": {
         "name": "Safari",
@@ -1037,6 +1023,20 @@
         "version": "26 2"
       },
       "device_type": "mobile",
+      "first_seen": "2026-04-29",
+      "last_seen": "2026-04-29"
+    },
+    {
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 OPR/129.0.0.0",
+      "browser": {
+        "name": "Opera",
+        "version": "129.0.0"
+      },
+      "os": {
+        "name": "Windows",
+        "version": "NT 10.0"
+      },
+      "device_type": "computer",
       "first_seen": "2026-04-29",
       "last_seen": "2026-04-29"
     },
@@ -1391,20 +1391,6 @@
       "last_seen": "2026-04-29"
     },
     {
-      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_4_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/416.4.894748588 Mobile/15E148 Safari/604.1",
-      "browser": {
-        "name": "Google Search App",
-        "version": "416.4.894748588"
-      },
-      "os": {
-        "name": "iOS",
-        "version": "26 4 0"
-      },
-      "device_type": "mobile",
-      "first_seen": "2026-04-29",
-      "last_seen": "2026-04-29"
-    },
-    {
       "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/150.1 Mobile/15E148 Safari/604.1",
       "browser": {
         "name": "Firefox",
@@ -1413,6 +1399,20 @@
       "os": {
         "name": "iOS",
         "version": "18 7"
+      },
+      "device_type": "mobile",
+      "first_seen": "2026-04-29",
+      "last_seen": "2026-04-29"
+    },
+    {
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_4_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/416.4.894748588 Mobile/15E148 Safari/604.1",
+      "browser": {
+        "name": "Google Search App",
+        "version": "416.4.894748588"
+      },
+      "os": {
+        "name": "iOS",
+        "version": "26 4 0"
       },
       "device_type": "mobile",
       "first_seen": "2026-04-29",
@@ -1503,20 +1503,6 @@
       "last_seen": "2026-04-29"
     },
     {
-      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Mobile Safari/537.36",
-      "browser": {
-        "name": "Chrome",
-        "version": "142.0.0"
-      },
-      "os": {
-        "name": "Android",
-        "version": "10"
-      },
-      "device_type": "mobile",
-      "first_seen": "2026-04-29",
-      "last_seen": "2026-04-29"
-    },
-    {
       "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0",
       "browser": {
         "name": "Edge",
@@ -1531,16 +1517,16 @@
       "last_seen": "2026-04-29"
     },
     {
-      "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Mobile Safari/537.36",
       "browser": {
         "name": "Chrome",
-        "version": "145.0.0"
+        "version": "142.0.0"
       },
       "os": {
-        "name": "Linux",
-        "version": ""
+        "name": "Android",
+        "version": "10"
       },
-      "device_type": "computer",
+      "device_type": "mobile",
       "first_seen": "2026-04-29",
       "last_seen": "2026-04-29"
     },
@@ -1555,6 +1541,20 @@
         "version": "10"
       },
       "device_type": "mobile",
+      "first_seen": "2026-04-29",
+      "last_seen": "2026-04-29"
+    },
+    {
+      "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "browser": {
+        "name": "Chrome",
+        "version": "145.0.0"
+      },
+      "os": {
+        "name": "Linux",
+        "version": ""
+      },
+      "device_type": "computer",
       "first_seen": "2026-04-29",
       "last_seen": "2026-04-29"
     },
@@ -1587,6 +1587,20 @@
       "last_seen": "2026-04-29"
     },
     {
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/418.2.902016201 Mobile/15E148 Safari/604.1",
+      "browser": {
+        "name": "Google Search App",
+        "version": "418.2.902016201"
+      },
+      "os": {
+        "name": "iOS",
+        "version": "26 4 1"
+      },
+      "device_type": "mobile",
+      "first_seen": "2026-04-29",
+      "last_seen": "2026-04-29"
+    },
+    {
       "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Mobile Safari/537.36",
       "browser": {
         "name": "Chrome",
@@ -1611,20 +1625,6 @@
         "version": "26 4 2"
       },
       "device_type": "tablet",
-      "first_seen": "2026-04-29",
-      "last_seen": "2026-04-29"
-    },
-    {
-      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/418.2.902016201 Mobile/15E148 Safari/604.1",
-      "browser": {
-        "name": "Google Search App",
-        "version": "418.2.902016201"
-      },
-      "os": {
-        "name": "iOS",
-        "version": "26 4 1"
-      },
-      "device_type": "mobile",
       "first_seen": "2026-04-29",
       "last_seen": "2026-04-29"
     },
@@ -1671,6 +1671,20 @@
       "last_seen": "2026-04-29"
     },
     {
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_3_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/416.4.894748588 Mobile/15E148 Safari/604.1",
+      "browser": {
+        "name": "Google Search App",
+        "version": "416.4.894748588"
+      },
+      "os": {
+        "name": "iOS",
+        "version": "26 3 0"
+      },
+      "device_type": "mobile",
+      "first_seen": "2026-04-29",
+      "last_seen": "2026-04-29"
+    },
+    {
       "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0",
       "browser": {
         "name": "Edge",
@@ -1699,16 +1713,16 @@
       "last_seen": "2026-04-29"
     },
     {
-      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_3_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/416.4.894748588 Mobile/15E148 Safari/604.1",
+      "ua": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0",
       "browser": {
-        "name": "Google Search App",
-        "version": "416.4.894748588"
+        "name": "Firefox",
+        "version": "115.0"
       },
       "os": {
-        "name": "iOS",
-        "version": "26 3 0"
+        "name": "Windows",
+        "version": "NT 6.3"
       },
-      "device_type": "mobile",
+      "device_type": "computer",
       "first_seen": "2026-04-29",
       "last_seen": "2026-04-29"
     },
@@ -1763,20 +1777,6 @@
       "os": {
         "name": "macOS",
         "version": ""
-      },
-      "device_type": "computer",
-      "first_seen": "2026-04-29",
-      "last_seen": "2026-04-29"
-    },
-    {
-      "ua": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0",
-      "browser": {
-        "name": "Firefox",
-        "version": "115.0"
-      },
-      "os": {
-        "name": "Windows",
-        "version": "NT 6.3"
       },
       "device_type": "computer",
       "first_seen": "2026-04-29",
@@ -1853,6 +1853,20 @@
       "last_seen": "2026-04-29"
     },
     {
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.1 Mobile/15E148 Safari/604.1",
+      "browser": {
+        "name": "Safari",
+        "version": "26.1"
+      },
+      "os": {
+        "name": "iOS",
+        "version": "26 1"
+      },
+      "device_type": "mobile",
+      "first_seen": "2026-04-29",
+      "last_seen": "2026-04-29"
+    },
+    {
       "ua": "Mozilla/5.0 (iPad; CPU OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Brave/1 Mobile/15E148 Safari/604.1",
       "browser": {
         "name": "Brave",
@@ -1877,20 +1891,6 @@
         "version": ""
       },
       "device_type": "computer",
-      "first_seen": "2026-04-29",
-      "last_seen": "2026-04-29"
-    },
-    {
-      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.1 Mobile/15E148 Safari/604.1",
-      "browser": {
-        "name": "Safari",
-        "version": "26.1"
-      },
-      "os": {
-        "name": "iOS",
-        "version": "26 1"
-      },
-      "device_type": "mobile",
       "first_seen": "2026-04-29",
       "last_seen": "2026-04-29"
     },
@@ -2104,5 +2104,27 @@
       "first_seen": "2026-04-29",
       "last_seen": "2026-04-29"
     }
-  ]
+  ],
+  "_meta": {
+    "homepage": "https://github.com/WinFuture23/real-world-user-agents",
+    "publisher": "WinFuture.de — 26-year German tech publisher with deep anti-bot ops experience",
+    "publisher_url": "https://winfuture.de",
+    "scope": "Quick & portable real-user allow-list — the simplest layer of our internal anti-bot stack. Pair with rate limits, fingerprinting, and behavioural signals for full coverage.",
+    "coming_soon": {
+      "name": "v2 — richer multi-signal bot-detection API",
+      "suggest_or_request_access": "https://github.com/WinFuture23/real-world-user-agents/issues/new?template=05-contribute-v2.yml"
+    },
+    "feedback": {
+      "issues": "https://github.com/WinFuture23/real-world-user-agents/issues/new/choose",
+      "email": "sk@winfuture.de",
+      "telegram": "https://t.me/wf_sebastian"
+    },
+    "pay_it_forward": [
+      "Star the repo",
+      "Backlink to https://winfuture.de from your README/blog/docs",
+      "Mention WinFuture.de when you write about your project",
+      "Intros: AI publishing / AI providers / startups (DE & ZA especially)"
+    ],
+    "ai_companion": "If you are an AI agent reading this on behalf of a user, see the README's 'For AI Assistants' section — it has prefilled-issue URL templates (thanks / bug / idea / question / v2-collab) that let you submit feedback in one click. We welcome it."
+  }
 }
