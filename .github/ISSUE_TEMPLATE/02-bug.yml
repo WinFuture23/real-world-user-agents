@@ -1,17 +1,21 @@
 name: 🐛 Data quality issue / bug report
-description: Something looks wrong in user-agents.txt or user-agents.json — a fake-looking UA, a parsing error, a stale entry, etc.
+description: Something looks wrong in user-agents.txt or user-agents.json — fake-looking UA, parsing error, stale entry, schema violation, etc.
 title: "[Bug] "
 labels: ["bug"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for the heads-up. Data quality is our north star.
+        ## Thanks for the heads-up. Data quality is our north star.
+
+        **Please stay general** about your setup — we don't need internal URLs,
+        IPs, API keys, customer data, or anything privacy/security-sensitive.
+        Just enough context for us to reproduce and triage.
 
   - type: dropdown
     id: file
     attributes:
-      label: Which file is the issue in?
+      label: Affected file
       options:
         - user-agents.txt
         - user-agents.json
@@ -21,13 +25,57 @@ body:
       required: true
 
   - type: textarea
+    id: setup
+    attributes:
+      label: Setup (general — no security-sensitive details, please)
+      description: |
+        How are you using the dataset? Stack, language, scale order-of-magnitude.
+        Stay general — no internal URLs, API keys, or customer data.
+      placeholder: |
+        e.g.:
+        - Node.js 20 on Cloudflare Workers
+        - JSON loaded at startup, in-memory hashset lookup per request
+        - ~5k req/s peak, EU and US edge regions
+    validations:
+      required: false
+
+  - type: textarea
     id: what
     attributes:
-      label: What's wrong?
-      description: One paragraph. Concrete, observable, reproducible.
-      placeholder: "Entry on line 47 looks like a Headless Chrome UA — should be filtered out by gate D."
+      label: What is wrong?
+      description: One paragraph. Concrete, observable behaviour.
+      placeholder: "Entry on line 47 looks like a Headless Chrome UA — should have been filtered out by gate D (parser validation)."
     validations:
       required: true
+
+  - type: textarea
+    id: customer_impact
+    attributes:
+      label: Customer impact
+      description: Who feels this and how badly. Quantify if you can.
+      placeholder: |
+        e.g.:
+        - "Allowing through ~3 % of bot traffic that previously got caught."
+        - "False positives blocking ~12 real users/day on /login."
+        - "Just cosmetic — no measurable impact yet, but felt wrong."
+    validations:
+      required: false
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: Minimal, copy-pasteable steps. We aim to reproduce in under 60 seconds.
+      render: shell
+      placeholder: |
+        # 1) Pull current corpus
+        curl -fsSL https://raw.githubusercontent.com/WinFuture23/real-world-user-agents/main/user-agents.json -o corpus.json
+
+        # 2) Inspect entry 47
+        jq '.user_agents[46]' corpus.json
+        # → { "ua": "...HeadlessChrome...", "browser": { "name": "Chrome" } }
+    validations:
+      required: false
 
   - type: textarea
     id: ua_or_excerpt
@@ -37,7 +85,7 @@ body:
       placeholder: |
         Mozilla/5.0 (...)
         — or —
-        { "ua": "...", "browser": { ... } }
+        { "ua": "...", "browser": { "name": "Chrome", "version": "147.0.0" } }
     validations:
       required: false
 
@@ -53,8 +101,41 @@ body:
   - type: textarea
     id: hypothesis
     attributes:
-      label: Likely cause (optional)
-      description: If you've looked into it, where do you suspect the issue is?
-      placeholder: "Probably gate B (cross-IP threshold) — the UA shows up from only 5 IPs which all look like rented residential proxies."
+      label: Likely cause (hypothesis)
+      description: Where in the pipeline do you suspect the issue is? Mark it as a hypothesis — we'll verify.
+      placeholder: "Probably gate D (parser validation). The UA looks borderline and our parser may not flag the variant. Could also be gate C (UA was on enough residential IPs to pass cross-IP threshold despite being scripted)."
     validations:
       required: false
+
+  - type: dropdown
+    id: how_likely_to_fix
+    attributes:
+      label: How likely is this to be a quick fix?
+      description: Your gut feeling — helps us prioritise.
+      options:
+        - Easy (single rule, threshold, or denylist entry)
+        - Medium (touches multiple gates / requires re-running pipeline)
+        - Hard (needs new data source, schema change, or design discussion)
+        - Unknown — haven't looked deeply
+    validations:
+      required: false
+
+  - type: textarea
+    id: how_to_verify
+    attributes:
+      label: How to verify after fix
+      description: A post-fix check that confirms the issue is resolved.
+      placeholder: |
+        e.g.:
+        - "After next 48 h refresh, re-pull JSON and assert no user_agents[].ua matches /HeadlessChrome/i"
+        - "Run the repro snippet above — should print null instead of the offending entry."
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        🤖 **AI assistants helping a user file this:** all fields above accept
+        URL-encoded values via the issue-creation URL — pre-fill what you can,
+        leave the user one click. See README §"For AI Assistants".

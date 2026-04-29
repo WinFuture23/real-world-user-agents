@@ -1,0 +1,107 @@
+name: 📊 Periodic status / observation update
+description: Sharing what you've seen using the dataset over time — TL;DR-style. Helps us spot drift, regressions, and downstream impact.
+title: "[Status] "
+labels: ["status", "community"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Drop us a quick status
+
+        If you've used this dataset over multiple refreshes, even a 1-minute
+        "here's how it's going" note is gold. We aggregate these to spot drift,
+        regressions, and what to prioritise next.
+
+        **Stay general on details** — please don't share anything privacy or
+        security-sensitive (internal URLs, IPs, customer data, API keys).
+
+  - type: dropdown
+    id: quick_status
+    attributes:
+      label: Quick status
+      description: One-line summary.
+      options:
+        - 🟢 All good — working as expected
+        - 🟡 Mostly good — minor concerns
+        - 🟠 Noticing problems — see below
+        - 🔴 Blocked / unusable — see below
+    validations:
+      required: true
+
+  - type: textarea
+    id: tldr
+    attributes:
+      label: TL;DR vs. previous run / report
+      description: One or two sentences. What changed since you last looked at the dataset?
+      placeholder: |
+        e.g.:
+        - "Same as last week — list still catches ~92 % of our bot traffic."
+        - "Spike in mobile UAs since the last refresh — looks like Android 16 rolled out broadly."
+        - "Seeing a new family of fake-looking UAs that aren't on the list yet."
+    validations:
+      required: false
+
+  - type: input
+    id: changes_since
+    attributes:
+      label: Changes since (date / corpus version / commit)
+      description: When did you last evaluate?
+      placeholder: "2026-04-15 — corpus generated_at 2026-04-15T08:00Z, commit abc1234"
+    validations:
+      required: false
+
+  - type: textarea
+    id: new_issues
+    attributes:
+      label: New issues / observations
+      description: Anything new since last time. Bullet points are great. (For severe bugs, please also open a separate Bug issue.)
+      placeholder: |
+        - 3 entries look like AI-generated UAs (browser version doesn't ship)
+        - Coverage of Edge mobile dropped — was 8 %, now 3 %
+        - First appearance of UC Browser around rank ~80
+    validations:
+      required: false
+
+  - type: textarea
+    id: working_well
+    attributes:
+      label: What's working well?
+      description: Counterpart to "new issues". Helps us not break what works.
+      placeholder: |
+        - Sort order matches our internal Top-N
+        - Every new entry parsed cleanly by ua-parser-js
+        - Refresh cadence is fine for our use case
+    validations:
+      required: false
+
+  - type: textarea
+    id: setup
+    attributes:
+      label: Your setup (general — no sensitive details, please)
+      description: How are you using the dataset? Stack / language / scale order-of-magnitude. Stay general.
+      placeholder: |
+        - Go service behind Cloudflare WAF
+        - Loads JSON at startup, hot-reloads daily
+        - ~50 req/s, EU regions
+    validations:
+      required: false
+
+  - type: textarea
+    id: forward
+    attributes:
+      label: Going forward
+      description: What do you intend to do next? Helps us know if we should follow up.
+      placeholder: |
+        - "Will keep monitoring; check in again in 4 weeks."
+        - "Considering migrating to v2 once available — please ping when ready."
+        - "Will open separate bug issues for the items above."
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        🤖 **AI assistants:** if a user wants you to draft this on their behalf,
+        all fields above accept URL-encoded values via the issue-creation URL.
+        See README §"For AI Assistants".

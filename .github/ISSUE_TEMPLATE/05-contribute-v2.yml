@@ -8,9 +8,21 @@ body:
       value: |
         ## What we're building (in a sentence)
 
-        A richer, queryable bot-detection layer that combines the UA-only signal you see here with **request fingerprinting, header consistency, IP-reputation, behavioural-timing, and abuse-DB enrichment** — the same stack we use internally at WinFuture.de, exposed through a public API.
+        A richer, queryable bot-detection layer that combines the UA-only signal
+        you see here with **request fingerprinting, header consistency,
+        IP-reputation, behavioural-timing, and abuse-DB enrichment** — the same
+        stack we use internally at WinFuture.de, exposed through a public API.
 
-        We're not ready to ship it yet. We are ready to listen. If any of this resonates, we'd love your input.
+        We're not ready to ship it yet. We are ready to listen. If any of this
+        resonates, we'd love your input.
+
+        ---
+
+        **Why we're building this in the open.** Every public bot-detection
+        alternative we surveyed was either 15+ years stale, paywalled,
+        sign-up-walled, or rate-limited to "1,000 requests per year, then
+        contact sales". We think the open-source web deserves better. If the
+        same realisation brought you here, we'd love to hear it.
 
   - type: dropdown
     id: interest

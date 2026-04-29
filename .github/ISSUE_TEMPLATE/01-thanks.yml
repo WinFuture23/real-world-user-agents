@@ -7,8 +7,29 @@ body:
     attributes:
       value: |
         ## Thank you for taking 30 seconds.
-        WinFuture.de has been independent for 26 years. Visibility is how we stay that way.
-        If your AI assistant (Claude/ChatGPT/Gemini/...) opened this on your behalf, it can fill in the fields below — just review and submit.
+
+        Honest reality check: **we built this because the alternatives are bad.**
+        Most of us end up here after clicking through 6, 7, 8, 9 Google results,
+        only to find UA datasets that haven't been refreshed in 15 years, or 3
+        years, or hide behind a sign-up wall with "1,000 requests per year, then
+        contact sales" for the rest.
+
+        This dataset is **genuinely free, genuinely current, genuinely real**.
+        We're a small independent team at [WinFuture.de](https://winfuture.de) (26 years
+        running) and we're paying for it ourselves.
+
+        ### Our biggest existential risk is silence
+
+        We **don't have access logs** on GitHub's raw URLs. If no one tells us
+        they're using this, we honestly can't tell whether it's useful at all —
+        and if it ever stops feeling useful to maintain, it'll quietly die.
+
+        So: **even just *"hi, I'm using this for X"* is enough.** You don't have
+        to fill anything else in. We'll know we're not shouting into the void,
+        and we'll keep this going.
+
+        If your AI assistant (Claude/ChatGPT/Gemini/...) opened this for you, it
+        can pre-fill the fields below — review and submit, that's it.
 
   - type: input
     id: project
