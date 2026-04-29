@@ -1,0 +1,7 @@
+# Real-World User Agents — sourced from live traffic at WinFuture.de
+# Refresh cadence: every 48 hours
+# Sort order: most-common-first (descending real-world prevalence)
+# License: CC0 1.0 Universal — public domain
+# Project: https://github.com/WinFuture23/real-world-user-agents
+#
+# This file is a placeholder. The first harvest pass will populate it.
