@@ -75,29 +75,102 @@ That's it. The list is **sorted by real-world prevalence** — entry #1 is what 
 
 ## 💡 Real-World Use Cases
 
-### 1. Web scraping & crawling rotation
-Rotate through realistic UAs that won't trip naive bot detection. Top-of-list entries match the real-world Chrome/Firefox/Safari distribution — your scraper blends in.
+Pick your stack — every snippet is self-contained, dependency-light, and shows a realistic problem being solved. Click an entry to jump.
+
+| # | Stack | Use case |
+|---|---|---|
+|  1 | **cURL / Bash** | [WAF and CDN rule QA](#1-curl--waf-and-cdn-rule-qa) |
+|  2 | **PHP** | [Realistic test fixtures](#2-php--realistic-test-fixtures) |
+|  3 | **Python** | [Scraping and crawling rotation](#3-python--scraping-and-crawling-rotation) |
+|  4 | **Node.js** | [Playwright headless config](#4-nodejs--playwright-headless-config) |
+|  5 | **Java** | [Spring Boot allow-list filter](#5-java--spring-boot-allow-list-filter) |
+|  6 | **C# (.NET)** | [ASP.NET Core middleware](#6-c-net--aspnet-core-middleware) |
+|  7 | **Go** | [HTTP middleware allow-list](#7-go--http-middleware-allow-list) |
+|  8 | **Ruby** | [Rack and Rails middleware](#8-ruby--rack-and-rails-middleware) |
+|  9 | **Rust** | [High-performance UA matcher](#9-rust--high-performance-ua-matcher) |
+| 10 | **TypeScript (Deno)** | [CDN edge worker bot scoring](#10-typescript-deno--cdn-edge-worker-bot-scoring) |
+
+> ⚠️ **Sanity note (applies to every example below):** UA allow-listing is one layer of defense in depth, never a sole filter — UAs are client-supplied and easy to spoof. Pair with rate limits, behavioural signals, and proper auth. (See our [v2 API](#-coming-next-a-richer-api-v2) for a richer multi-signal approach.)
+
+---
+
+### 1. cURL — WAF and CDN rule QA
+
+Before shipping a new WAF rule, verify it doesn't accidentally block real users. Replay every published UA against staging and count the blocks.
+
+```bash
+#!/usr/bin/env bash
+# Replay every real-world UA against your endpoint, count blocks
+ENDPOINT="https://staging.example.com/login"
+BLOCKED=0; TOTAL=0
+while IFS= read -r ua; do
+  [[ "$ua" =~ ^# ]] && continue
+  [[ -z "$ua"   ]] && continue
+  status=$(curl -sS -o /dev/null -w "%{http_code}" -H "User-Agent: $ua" "$ENDPOINT")
+  TOTAL=$((TOTAL+1))
+  if [[ "$status" =~ ^4[0-9][0-9]$ && "$status" != "404" ]]; then
+    BLOCKED=$((BLOCKED+1)); echo "❌ $status — $ua"
+  fi
+done < <(curl -fsSL https://raw.githubusercontent.com/WinFuture23/real-world-user-agents/main/user-agents.txt)
+echo "Blocked $BLOCKED of $TOTAL real-world UAs."
+```
+
+### 2. PHP — Realistic test fixtures
+
+Stop hardcoding `"Mozilla/5.0 (TestBrowser/1.0)"` in your PHPUnit / Pest / Codeception fixtures. Pull the live list at CI start, freeze it for the test run, get production-realistic coverage for free.
+
+```php
+<?php
+// real-world-ua.php — drop-in helper for any PHP 8.1+ project
+function realWorldUA(): string {
+    $cache = sys_get_temp_dir() . '/rwua.txt';
+    if (!file_exists($cache) || time() - filemtime($cache) > 86400) {
+        copy(
+            'https://raw.githubusercontent.com/WinFuture23/real-world-user-agents/main/user-agents.txt',
+            $cache
+        );
+    }
+    $lines = array_filter(
+        file($cache, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES),
+        fn ($l) => !str_starts_with($l, '#')
+    );
+    return $lines[array_rand($lines)];
+}
+```
+
+### 3. Python — Scraping and crawling rotation
+
+Rotate through realistic UAs that won't trip naive bot detection. Top-of-list entries match the real-world Chrome/Firefox/Safari distribution — your scraper blends in with actual traffic.
 
 ```python
-# Python — weighted picker that mirrors real distribution
+# Weighted picker that mirrors real-world distribution
 import json, random, urllib.request
+
 data = json.loads(urllib.request.urlopen(
     "https://raw.githubusercontent.com/WinFuture23/real-world-user-agents/main/user-agents.json"
 ).read())
+
 # Inverse-rank weight: top entries are picked more often, like in the wild
 weights = [1 / (i + 1) for i in range(len(data["user_agents"]))]
 ua = random.choices(data["user_agents"], weights=weights)[0]["ua"]
 print(ua)
 ```
 
-### 2. Headless browser configuration
+### 4. Node.js — Playwright headless config
+
 Stop Playwright/Puppeteer from announcing itself with `HeadlessChrome`. Pick a UA that any modern WAF will see as a real visitor.
 
 ```js
 // Node.js + Playwright
 import { chromium } from "playwright";
-const list = await fetch("https://raw.githubusercontent.com/WinFuture23/real-world-user-agents/main/user-agents.json").then(r => r.json());
-const ua = list.user_agents.find(e => e.browser.name === "Chrome" && e.device_type === "computer").ua;
+
+const list = await fetch(
+  "https://raw.githubusercontent.com/WinFuture23/real-world-user-agents/main/user-agents.json"
+).then(r => r.json());
+
+const ua = list.user_agents.find(
+  e => e.browser.name === "Chrome" && e.device_type === "computer"
+).ua;
 
 const browser = await chromium.launch();
 const ctx = await browser.newContext({ userAgent: ua });
@@ -105,8 +178,92 @@ const page = await ctx.newPage();
 await page.goto("https://example.com");
 ```
 
-### 3. Bot-detection middleware (allow-list pattern)
-Flip the usual approach: instead of a denylist of known-bot UAs (always behind), use an allow-list of UAs that we **prove** belong to real humans. **In our experience, this single check catches the majority of low-effort spam-bot traffic.**
+### 5. Java — Spring Boot allow-list filter
+
+Add a single Servlet `Filter` that enforces the corpus as a soft allow-list. Anything not on the list gets a 403 + captcha redirect; everything else passes straight through.
+
+```java
+// Spring Boot 3 / Jakarta — UA allow-list filter
+import jakarta.servlet.*;
+import jakarta.servlet.http.*;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import org.springframework.stereotype.Component;
+import java.net.URI;
+import java.util.Set;
+import java.util.stream.*;
+
+@Component
+public class RealUserAgentFilter implements Filter {
+  private static final String URL =
+    "https://raw.githubusercontent.com/WinFuture23/real-world-user-agents/main/user-agents.json";
+  private final Set<String> allowed;
+
+  public RealUserAgentFilter() throws Exception {
+    var json = new ObjectMapper().readTree(URI.create(URL).toURL());
+    allowed = StreamSupport.stream(json.get("user_agents").spliterator(), false)
+        .map(e -> e.get("ua").asText())
+        .collect(Collectors.toUnmodifiableSet());
+  }
+
+  @Override
+  public void doFilter(ServletRequest req, ServletResponse res, FilterChain chain)
+      throws java.io.IOException, ServletException {
+    var http = (HttpServletRequest) req;
+    if (!allowed.contains(http.getHeader("User-Agent"))) {
+      ((HttpServletResponse) res).sendError(403, "Captcha required");
+      return;
+    }
+    chain.doFilter(req, res);
+  }
+}
+```
+
+### 6. C# (.NET) — ASP.NET Core middleware
+
+A standard ASP.NET Core middleware that loads the corpus once at startup and rejects unknown UAs. Drop it into the pipeline, point your monitoring at the 403s, fine-tune from there.
+
+```csharp
+// ASP.NET Core 9 — UA allow-list middleware
+using System.Text.Json;
+
+public class UAAllowListMiddleware
+{
+    private readonly RequestDelegate _next;
+    private readonly HashSet<string> _allowed;
+
+    public UAAllowListMiddleware(RequestDelegate next, IHttpClientFactory httpFactory)
+    {
+        _next = next;
+        var json = httpFactory.CreateClient().GetStringAsync(
+            "https://raw.githubusercontent.com/WinFuture23/real-world-user-agents/main/user-agents.json"
+        ).GetAwaiter().GetResult();
+
+        var doc = JsonDocument.Parse(json);
+        _allowed = doc.RootElement.GetProperty("user_agents")
+            .EnumerateArray()
+            .Select(e => e.GetProperty("ua").GetString()!)
+            .ToHashSet();
+    }
+
+    public async Task InvokeAsync(HttpContext ctx)
+    {
+        var ua = ctx.Request.Headers.UserAgent.ToString();
+        if (!_allowed.Contains(ua))
+        {
+            ctx.Response.StatusCode = 403;
+            await ctx.Response.WriteAsync("Captcha required");
+            return;
+        }
+        await _next(ctx);
+    }
+}
+
+// Program.cs:  app.UseMiddleware<UAAllowListMiddleware>();
+```
+
+### 7. Go — HTTP middleware allow-list
+
+Flip the usual approach: instead of a denylist of known-bot UAs (always behind), use an allow-list of UAs we **prove** belong to real humans. **In our experience, this single check catches the majority of low-effort spam-bot traffic.**
 
 ```go
 // Go — strict allow-list middleware
@@ -129,7 +286,9 @@ func loadAllowList() {
     var c corpus
     json.NewDecoder(resp.Body).Decode(&c)
     allowed = make(map[string]bool, len(c.UserAgents))
-    for _, e := range c.UserAgents { allowed[strings.TrimSpace(e.UA)] = true }
+    for _, e := range c.UserAgents {
+        allowed[strings.TrimSpace(e.UA)] = true
+    }
 }
 
 func handler(w http.ResponseWriter, r *http.Request) {
@@ -142,68 +301,48 @@ func handler(w http.ResponseWriter, r *http.Request) {
 }
 ```
 
-> ⚠️ **Sanity note:** UA allow-listing is one layer of defense in depth, never a sole filter — UAs are client-supplied and easy to spoof. Pair with rate limits, behavioural signals, and proper auth. (See our [v2 API](#-coming-next-a-richer-api-v2) for a richer multi-signal approach.)
+### 8. Ruby — Rack and Rails middleware
 
-### 4. WAF / CDN rule QA
-Before shipping a new WAF rule, verify it doesn't accidentally block real users. Replay the top-150 UAs against staging and confirm none are tripped.
+Pure Rack middleware — works in Rails, Sinatra, Hanami, or anything else that speaks Rack. Fetched once at boot, hot path is a single `Set#include?` lookup.
 
-```bash
-#!/usr/bin/env bash
-# Bash — replay every published UA against your endpoint, count blocks
-ENDPOINT="https://staging.example.com/login"
-BLOCKED=0; TOTAL=0
-while IFS= read -r ua; do
-  [[ "$ua" =~ ^# ]] && continue
-  [[ -z "$ua"   ]] && continue
-  status=$(curl -sS -o /dev/null -w "%{http_code}" -H "User-Agent: $ua" "$ENDPOINT")
-  TOTAL=$((TOTAL+1))
-  if [[ "$status" =~ ^4[0-9][0-9]$ && "$status" != "404" ]]; then
-    BLOCKED=$((BLOCKED+1)); echo "❌ $status — $ua"
-  fi
-done < <(curl -fsSL https://raw.githubusercontent.com/WinFuture23/real-world-user-agents/main/user-agents.txt)
-echo "Blocked $BLOCKED of $TOTAL real-world UAs."
+```ruby
+# Rack middleware: app/middleware/real_ua_allow_list.rb
+require 'net/http'
+require 'json'
+require 'set'
+
+class RealUaAllowList
+  URL = 'https://raw.githubusercontent.com/WinFuture23/real-world-user-agents/main/user-agents.json'
+
+  def initialize(app)
+    @app = app
+    @allowed = JSON.parse(Net::HTTP.get(URI(URL)))
+                   .fetch('user_agents')
+                   .map { |e| e['ua'] }
+                   .to_set
+  end
+
+  def call(env)
+    return [403, {}, ['Captcha required']] unless @allowed.include?(env['HTTP_USER_AGENT'])
+    @app.call(env)
+  end
+end
+
+# config/application.rb:  config.middleware.use RealUaAllowList
 ```
 
-### 5. Synthetic monitoring with realistic identity
-Lighthouse / Pingdom / Datadog Synthetics often default to `Lighthouse/x.y.z` UAs. Your origin sees those as bots and serves degraded HTML. Use a real UA instead.
+### 9. Rust — High-performance UA matcher
 
-```ts
-// Deno — uptime probe with a randomly-rotated real UA
-const list = await (await fetch(
-  "https://raw.githubusercontent.com/WinFuture23/real-world-user-agents/main/user-agents.json"
-)).json();
-const ua = list.user_agents[Math.floor(Math.random() * list.user_agents.length)].ua;
-
-const t0 = performance.now();
-const r = await fetch("https://api.example.com/health", { headers: { "User-Agent": ua } });
-const ms = performance.now() - t0;
-console.log(JSON.stringify({ status: r.status, ms: Math.round(ms), ua_browser: list.user_agents[0].browser.name }));
-```
-
-### 6. A/B-test bucket validation
-Bucketing by "Chrome desktop vs. mobile Safari" only matters if your buckets reflect what users actually use. Pull the JSON, group by `(browser.name, device_type)`, and you've got an honest baseline distribution.
-
-```python
-# Python — show the live browser-share of your dataset's audience cohort
-import json, urllib.request
-from collections import Counter
-d = json.loads(urllib.request.urlopen(
-    "https://raw.githubusercontent.com/WinFuture23/real-world-user-agents/main/user-agents.json"
-).read())
-share = Counter((e["browser"]["name"], e["device_type"]) for e in d["user_agents"])
-for (b, dev), n in share.most_common(10):
-    print(f"{b:20s} {dev:8s} — rank-share weight {n}")
-```
-
-### 7. High-performance UA matcher (compile once, match millions/sec)
-Compile the list into a hash set at startup; lookups are O(1) and ridiculously fast.
+Compile the list into a hash set at startup; lookups are O(1) and ridiculously fast — millions of checks per second per core, with no allocation on the hot path.
 
 ```rust
-// Rust — load once, match millions of requests per second per core
+// Cargo.toml: reqwest = { version = "0.12", features = ["json"] }
+//             serde   = { version = "1", features = ["derive"] }
+//             tokio   = { version = "1", features = ["full"] }
 use std::collections::HashSet;
 use serde::Deserialize;
 
-#[derive(Deserialize)] struct Entry { ua: String }
+#[derive(Deserialize)] struct Entry  { ua: String }
 #[derive(Deserialize)] struct Corpus { user_agents: Vec<Entry> }
 
 #[tokio::main]
@@ -214,7 +353,6 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     let known: HashSet<String> = r.user_agents.into_iter().map(|e| e.ua).collect();
 
-    // Hot path: O(1) membership check, no allocation
     let incoming = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36";
     if known.contains(incoming) {
         println!("real-world UA");
@@ -223,28 +361,9 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 }
 ```
 
-### 8. Test-fixture realism (Jest / pytest / cargo test)
-Stop hardcoding `"Mozilla/5.0 (TestBrowser/1.0)"` in your fixtures. Pull the live list at CI start, freeze it for the test run, get production-realistic coverage for free.
+### 10. TypeScript (Deno) — CDN edge worker bot scoring
 
-```php
-<?php
-// PHP — fetch + cache for 24h, return random real UA in tests
-function realWorldUA(): string {
-    $cache = sys_get_temp_dir() . '/rwua.txt';
-    if (!file_exists($cache) || time() - filemtime($cache) > 86400) {
-        copy(
-            'https://raw.githubusercontent.com/WinFuture23/real-world-user-agents/main/user-agents.txt',
-            $cache
-        );
-    }
-    $lines = array_filter(file($cache, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES),
-                          fn($l) => !str_starts_with($l, '#'));
-    return $lines[array_rand($lines)];
-}
-```
-
-### 9. CDN edge workers — bot scoring at the edge
-Cloudflare Workers / Fastly Compute / Deno Deploy: ship the list as KV at deploy time, score every request in microseconds.
+Cloudflare Workers / Fastly Compute / Deno Deploy: ship the corpus into KV at deploy time, score every request in microseconds, pass the score to origin so it can decide hard-block vs. captcha.
 
 ```ts
 // Deno Deploy / Cloudflare Workers — edge bot-score header
@@ -260,37 +379,26 @@ async function handle(req: Request): Promise<Response> {
     for (const e of list.user_agents) KNOWN_REAL.add(e.ua);
   }
   const score = KNOWN_REAL.has(req.headers.get("user-agent") ?? "") ? 0 : 50;
-  // Pass score to origin; let origin decide hard-block vs. captcha
-  return fetch(req, { headers: { ...Object.fromEntries(req.headers), "X-Bot-Score": String(score) } });
+  // Pass score to origin; origin decides hard-block vs. captcha
+  return fetch(req, {
+    headers: { ...Object.fromEntries(req.headers), "X-Bot-Score": String(score) },
+  });
 }
 ```
 
-### 10. ML feature engineering on authentic UAs
-If you're training a UA classifier or doing fingerprint research, you want labeled, real-world examples — not generated noise.
+---
 
-```python
-# Python — build a labeled training set with browser+device features
-import json, urllib.request
-import pandas as pd
+### Beyond the basics — more places this dataset shines
 
-raw = json.loads(urllib.request.urlopen(
-    "https://raw.githubusercontent.com/WinFuture23/real-world-user-agents/main/user-agents.json"
-).read())
-df = pd.DataFrame([
-    {
-        "ua": e["ua"],
-        "ua_len": len(e["ua"]),
-        "browser": e["browser"]["name"],
-        "browser_major": int(e["browser"]["version"].split(".")[0]) if e["browser"]["version"] else None,
-        "os": e["os"]["name"],
-        "device": e["device_type"],
-        "rank": i,  # popularity rank, lower = more common
-    }
-    for i, e in enumerate(raw["user_agents"])
-])
-print(df.head())
-print(df.groupby("device")["rank"].mean())  # avg rank per device class
-```
+A short list of less-obvious uses we've seen in the wild — no full code, just the idea so you can spot it in your own work:
+
+- **Synthetic monitoring** — replace `Lighthouse/x.y.z` UAs with rotated real ones so your origin doesn't serve degraded HTML to your own probes.
+- **A/B-test bucket validation** — group `(browser.name, device_type)` from the JSON to confirm your buckets actually reflect real users.
+- **ML feature engineering** — train UA classifiers on labeled, real-world examples instead of generated noise.
+- **Browser-share dashboards** — show "what our cohort actually uses today" without burning quota on a heavy analytics SaaS.
+- **Fingerprint research** — clean baseline corpus for header-vs-UA-consistency studies.
+
+Got a use case we missed? **[Open a "thanks" issue](../../issues/new?template=01-thanks.yml)** and tell us — we'll add it here and credit you.
 
 ---
 
