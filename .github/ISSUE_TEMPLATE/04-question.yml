@@ -1,0 +1,21 @@
+name: ❓ Question / how do I…
+description: Anything you can't figure out from the README. No question is too basic.
+title: "[Q] "
+labels: ["question"]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: What's your question?
+      placeholder: "How do I subset the JSON to only Mobile browsers in [language] without parsing every UA myself?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context (optional)
+      description: What are you actually trying to do? Helps us give a better answer.
+      placeholder: "Building a synthetic-monitoring tool that targets mobile-only flows."
+    validations:
+      required: false

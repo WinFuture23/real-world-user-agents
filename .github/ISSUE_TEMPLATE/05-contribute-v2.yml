@@ -1,0 +1,54 @@
+name: 🚀 v2 — richer dataset & API (early feedback / collaboration)
+description: We're building a richer bot-detection dataset + public API. Tell us what you'd want, or how you'd help.
+title: "[v2] "
+labels: ["v2", "collaboration"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## What we're building (in a sentence)
+
+        A richer, queryable bot-detection layer that combines the UA-only signal you see here with **request fingerprinting, header consistency, IP-reputation, behavioural-timing, and abuse-DB enrichment** — the same stack we use internally at WinFuture.de, exposed through a public API.
+
+        We're not ready to ship it yet. We are ready to listen. If any of this resonates, we'd love your input.
+
+  - type: dropdown
+    id: interest
+    attributes:
+      label: How are you interested?
+      multiple: true
+      options:
+        - I want early access (testing, feedback)
+        - I have ideas / requirements I'd like the API to support
+        - I have data or signals I could contribute
+        - I work on similar problems and want to collaborate
+        - I'm an investor / partner / commercial interest
+        - Just curious — keep me posted
+    validations:
+      required: true
+
+  - type: textarea
+    id: usecase
+    attributes:
+      label: Your use case / what you'd want from a richer API
+      placeholder: |
+        e.g. "We need to score requests at the edge in <5ms with an enrichment of UA + IP-reputation + JA4 fingerprint."
+    validations:
+      required: false
+
+  - type: textarea
+    id: contribution
+    attributes:
+      label: Anything you can contribute? (optional)
+      description: Code, data, expertise, time, intros — all welcome.
+      placeholder: "I have a curated bot-IP list refreshed daily / I can contribute a Rust client / I can intro you to ..."
+    validations:
+      required: false
+
+  - type: input
+    id: contact
+    attributes:
+      label: Best way to reach you
+      placeholder: "your-email@example.com / Telegram @handle / GitHub username"
+    validations:
+      required: false

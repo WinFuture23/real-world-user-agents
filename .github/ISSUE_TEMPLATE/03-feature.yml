@@ -1,0 +1,44 @@
+name: 💡 Feature idea / improvement
+description: An idea to make the dataset, schema, or pipeline better.
+title: "[Idea] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ideas are gold. We read every one.
+
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like to see?
+      placeholder: "Add a `client_hints` field with parsed Sec-Ch-Ua-* values when available."
+    validations:
+      required: true
+
+  - type: textarea
+    id: usecase
+    attributes:
+      label: What problem would this solve for you?
+      placeholder: "We need to distinguish Chromium-based browsers more precisely than the UA string allows."
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives you've considered (optional)
+      placeholder: "We currently call the WIMB API ourselves — works but expensive at scale."
+    validations:
+      required: false
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: How important is this for you?
+      options:
+        - Nice-to-have
+        - Would significantly improve my use case
+        - Blocking — I can't use the dataset effectively without it
+    validations:
+      required: false

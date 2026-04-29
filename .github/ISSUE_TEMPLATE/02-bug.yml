@@ -1,0 +1,60 @@
+name: 🐛 Data quality issue / bug report
+description: Something looks wrong in user-agents.txt or user-agents.json — a fake-looking UA, a parsing error, a stale entry, etc.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the heads-up. Data quality is our north star.
+
+  - type: dropdown
+    id: file
+    attributes:
+      label: Which file is the issue in?
+      options:
+        - user-agents.txt
+        - user-agents.json
+        - both
+        - README / docs
+    validations:
+      required: true
+
+  - type: textarea
+    id: what
+    attributes:
+      label: What's wrong?
+      description: One paragraph. Concrete, observable, reproducible.
+      placeholder: "Entry on line 47 looks like a Headless Chrome UA — should be filtered out by gate D."
+    validations:
+      required: true
+
+  - type: textarea
+    id: ua_or_excerpt
+    attributes:
+      label: Affected UA(s) or JSON excerpt
+      render: text
+      placeholder: |
+        Mozilla/5.0 (...)
+        — or —
+        { "ua": "...", "browser": { ... } }
+    validations:
+      required: false
+
+  - type: input
+    id: generated_at
+    attributes:
+      label: Which corpus version?
+      description: From the JSON's `generated_at` or the txt's `# Generated:` line.
+      placeholder: "2026-04-29T21:25:26.107Z"
+    validations:
+      required: false
+
+  - type: textarea
+    id: hypothesis
+    attributes:
+      label: Likely cause (optional)
+      description: If you've looked into it, where do you suspect the issue is?
+      placeholder: "Probably gate B (cross-IP threshold) — the UA shows up from only 5 IPs which all look like rented residential proxies."
+    validations:
+      required: false

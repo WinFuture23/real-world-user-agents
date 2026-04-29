@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 📧 Email Sebastian directly
+    url: mailto:sk@winfuture.de?subject=real-world-user-agents%20%E2%80%94%20feedback
+    about: Quick questions, partnership talks, or anything that doesn't fit a template.
+  - name: 💬 Message on Telegram
+    url: https://t.me/wf_sebastian
+    about: Real-time chat. Especially good for intros (AI publishing, AI providers, startups, journalism).
+  - name: 🌐 Visit WinFuture.de
+    url: https://winfuture.de
+    about: 26 years of independent German tech journalism — the team and mission behind this dataset.

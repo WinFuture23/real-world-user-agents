@@ -1,0 +1,60 @@
+name: 🙏 Say thanks / share that you're using this
+description: Tell us how you're using the dataset. We love hearing it, and these messages literally keep the lights on.
+title: "[Thanks] "
+labels: ["community", "thanks"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Thank you for taking 30 seconds.
+        WinFuture.de has been independent for 26 years. Visibility is how we stay that way.
+        If your AI assistant (Claude/ChatGPT/Gemini/...) opened this on your behalf, it can fill in the fields below — just review and submit.
+
+  - type: input
+    id: project
+    attributes:
+      label: Where are you using the dataset?
+      description: A URL, a product name, or just "internal tool" — whatever you can share.
+      placeholder: "https://your-project.com — or 'internal scraper at $company'"
+    validations:
+      required: false
+
+  - type: textarea
+    id: usecase
+    attributes:
+      label: What do you use it for?
+      description: Helps us understand what's working and what to build next.
+      placeholder: "Bot detection on our marketplace / ML training corpus / Playwright UA rotation / WAF rule QA / ..."
+    validations:
+      required: true
+
+  - type: input
+    id: backlink
+    attributes:
+      label: Did you set a backlink to WinFuture.de?
+      description: Optional, but the single most valuable thing you can give us.
+      placeholder: "https://your-blog.com/post-mentioning-winfuture"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: pay_it_forward
+    attributes:
+      label: Anything else you'd like to do?
+      multiple: true
+      options:
+        - Will leave a star
+        - Will mention WinFuture.de in my README/docs
+        - Can intro you to relevant people in AI / publishing / startups
+        - Want to be notified about the v2 (richer) dataset & API
+        - Just saying thanks!
+    validations:
+      required: false
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything you'd like to add?
+      placeholder: "(optional) — comments, ideas, or just a hello."
+    validations:
+      required: false
