@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-24T21:06:30.544Z",
+  "generated_at": "2026-06-26T21:06:37.068Z",
   "window": "48h",
   "count": 150,
   "user_agents": [
@@ -16,7 +16,7 @@
       },
       "device_type": "mobile",
       "first_seen": "2026-05-03",
-      "last_seen": "2026-06-24"
+      "last_seen": "2026-06-26"
     },
     {
       "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:152.0) Gecko/20100101 Firefox/152.0",
@@ -30,7 +30,7 @@
       },
       "device_type": "computer",
       "first_seen": "2026-04-29",
-      "last_seen": "2026-06-24"
+      "last_seen": "2026-06-26"
     },
     {
       "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
@@ -44,7 +44,7 @@
       },
       "device_type": "computer",
       "first_seen": "2026-05-13",
-      "last_seen": "2026-06-24"
+      "last_seen": "2026-06-26"
     },
     {
       "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0",
@@ -58,1085 +58,7 @@
       },
       "device_type": "computer",
       "first_seen": "2026-04-30",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1",
-      "browser": {
-        "name": "Safari",
-        "version": "26.5"
-      },
-      "os": {
-        "name": "iOS",
-        "version": "26 5"
-      },
-      "device_type": "mobile",
-      "first_seen": "2026-04-29",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/30.0 Chrome/143.0.0.0 Mobile Safari/537.36",
-      "browser": {
-        "name": "Samsung Internet Browser",
-        "version": "30.0"
-      },
-      "os": {
-        "name": "Android",
-        "version": "10"
-      },
-      "device_type": "mobile",
-      "first_seen": "2026-05-13",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-      "browser": {
-        "name": "Chrome",
-        "version": "149.0.0"
-      },
-      "os": {
-        "name": "Linux",
-        "version": ""
-      },
-      "device_type": "computer",
-      "first_seen": "2026-05-29",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Android 16; Mobile; rv:152.0) Gecko/152.0 Firefox/152.0",
-      "browser": {
-        "name": "Firefox",
-        "version": "152.0"
-      },
-      "os": {
-        "name": "Android",
-        "version": "16"
-      },
-      "device_type": "mobile",
-      "first_seen": "2026-04-29",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
-      "browser": {
-        "name": "Chrome",
-        "version": "146.0.0"
-      },
-      "os": {
-        "name": "Windows",
-        "version": "NT 10.0"
-      },
-      "device_type": "computer",
-      "first_seen": "2026-04-29",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
-      "browser": {
-        "name": "Chrome",
-        "version": "148.0.0"
-      },
-      "os": {
-        "name": "Windows",
-        "version": "NT 10.0"
-      },
-      "device_type": "computer",
-      "first_seen": "2026-04-29",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_5_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/425.6.927981711 Mobile/15E148 Safari/604.1",
-      "browser": {
-        "name": "Google Search App",
-        "version": "425.6.927981711"
-      },
-      "os": {
-        "name": "iOS",
-        "version": "26 5 0"
-      },
-      "device_type": "mobile",
-      "first_seen": "2026-06-16",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:140.0) Gecko/20100101 Firefox/140.0",
-      "browser": {
-        "name": "Firefox",
-        "version": "140.0"
-      },
-      "os": {
-        "name": "Windows",
-        "version": "NT 10.0"
-      },
-      "device_type": "computer",
-      "first_seen": "2026-04-29",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15",
-      "browser": {
-        "name": "Safari",
-        "version": "26.5"
-      },
-      "os": {
-        "name": "macOS",
-        "version": ""
-      },
-      "device_type": "computer",
-      "first_seen": "2026-04-29",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-      "browser": {
-        "name": "Chrome",
-        "version": "149.0.0"
-      },
-      "os": {
-        "name": "Android",
-        "version": "10"
-      },
-      "device_type": "tablet",
-      "first_seen": "2026-05-27",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0",
-      "browser": {
-        "name": "Firefox",
-        "version": "152.0"
-      },
-      "os": {
-        "name": "Linux",
-        "version": ""
-      },
-      "device_type": "computer",
-      "first_seen": "2026-06-16",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Mobile Safari/537.36",
-      "browser": {
-        "name": "Chrome",
-        "version": "148.0.0"
-      },
-      "os": {
-        "name": "Android",
-        "version": "10"
-      },
-      "device_type": "mobile",
-      "first_seen": "2026-04-29",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-      "browser": {
-        "name": "Chrome",
-        "version": "149.0.0"
-      },
-      "os": {
-        "name": "macOS",
-        "version": "10 15 7"
-      },
-      "device_type": "computer",
-      "first_seen": "2026-05-29",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_5_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/149.0.7827.137 Mobile/15E148 Safari/604.1",
-      "browser": {
-        "name": "Chrome",
-        "version": "149.0.7827"
-      },
-      "os": {
-        "name": "iOS",
-        "version": "26 5 0"
-      },
-      "device_type": "mobile",
-      "first_seen": "2026-06-12",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 OPR/132.0.0.0",
-      "browser": {
-        "name": "Opera",
-        "version": "132.0.0"
-      },
-      "os": {
-        "name": "Windows",
-        "version": "NT 10.0"
-      },
-      "device_type": "computer",
-      "first_seen": "2026-05-29",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Mobile Safari/537.36 OPR/99.0.0.0",
-      "browser": {
-        "name": "Opera",
-        "version": "99.0.0"
-      },
-      "os": {
-        "name": "Android",
-        "version": "10"
-      },
-      "device_type": "mobile",
-      "first_seen": "2026-06-02",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36 EdgA/149.0.0.0",
-      "browser": {
-        "name": "Edge",
-        "version": "149.0.0"
-      },
-      "os": {
-        "name": "Android",
-        "version": "10"
-      },
-      "device_type": "mobile",
-      "first_seen": "2026-05-03",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:151.0) Gecko/20100101 Firefox/151.0",
-      "browser": {
-        "name": "Firefox",
-        "version": "151.0"
-      },
-      "os": {
-        "name": "Windows",
-        "version": "NT 10.0"
-      },
-      "device_type": "computer",
-      "first_seen": "2026-04-29",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 OPR/131.0.0.0",
-      "browser": {
-        "name": "Opera",
-        "version": "131.0.0"
-      },
-      "os": {
-        "name": "Windows",
-        "version": "NT 10.0"
-      },
-      "device_type": "computer",
-      "first_seen": "2026-04-29",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:152.0) Gecko/20100101 Firefox/152.0",
-      "browser": {
-        "name": "Firefox",
-        "version": "152.0"
-      },
-      "os": {
-        "name": "macOS",
-        "version": "10 15"
-      },
-      "device_type": "computer",
-      "first_seen": "2026-05-01",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/425.6.927981711 Mobile/15E148 Safari/604.1",
-      "browser": {
-        "name": "Google Search App",
-        "version": "425.6.927981711"
-      },
-      "os": {
-        "name": "iOS",
-        "version": "26 5 1"
-      },
-      "device_type": "mobile",
-      "first_seen": "2026-06-16",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
-      "browser": {
-        "name": "Chrome",
-        "version": "148.0.0"
-      },
-      "os": {
-        "name": "macOS",
-        "version": "10 15 7"
-      },
-      "device_type": "computer",
-      "first_seen": "2026-05-07",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Android 17; Mobile; rv:152.0) Gecko/152.0 Firefox/152.0",
-      "browser": {
-        "name": "Firefox",
-        "version": "152.0"
-      },
-      "os": {
-        "name": "Android",
-        "version": "17"
-      },
-      "device_type": "mobile",
-      "first_seen": "2026-06-18",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
-      "browser": {
-        "name": "Chrome",
-        "version": "145.0.0"
-      },
-      "os": {
-        "name": "Windows",
-        "version": "NT 10.0"
-      },
-      "device_type": "computer",
-      "first_seen": "2026-04-29",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36",
-      "browser": {
-        "name": "Chrome",
-        "version": "138.0.0"
-      },
-      "os": {
-        "name": "Android",
-        "version": "10"
-      },
-      "device_type": "mobile",
-      "first_seen": "2026-04-29",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_5_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/426.2.931869700 Mobile/15E148 Safari/604.1",
-      "browser": {
-        "name": "Google Search App",
-        "version": "426.2.931869700"
-      },
-      "os": {
-        "name": "iOS",
-        "version": "26 5 0"
-      },
-      "device_type": "mobile",
-      "first_seen": "2026-06-22",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
-      "browser": {
-        "name": "Chrome",
-        "version": "147.0.0"
-      },
-      "os": {
-        "name": "Windows",
-        "version": "NT 10.0"
-      },
-      "device_type": "computer",
-      "first_seen": "2026-04-29",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Android 15; Mobile; rv:152.0) Gecko/152.0 Firefox/152.0",
-      "browser": {
-        "name": "Firefox",
-        "version": "152.0"
-      },
-      "os": {
-        "name": "Android",
-        "version": "15"
-      },
-      "device_type": "mobile",
-      "first_seen": "2026-06-18",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0",
-      "browser": {
-        "name": "Firefox",
-        "version": "115.0"
-      },
-      "os": {
-        "name": "Windows",
-        "version": "NT 6.1"
-      },
-      "device_type": "computer",
-      "first_seen": "2026-04-29",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Mobile Safari/537.36",
-      "browser": {
-        "name": "Chrome",
-        "version": "150.0.0"
-      },
-      "os": {
-        "name": "Android",
-        "version": "10"
-      },
-      "device_type": "mobile",
-      "first_seen": "2026-05-23",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0 Mobile/15E148 Safari/604.1",
-      "browser": {
-        "name": "Safari",
-        "version": "27.0"
-      },
-      "os": {
-        "name": "iOS",
-        "version": "27 0"
-      },
-      "device_type": "mobile",
-      "first_seen": "2026-06-08",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
-      "browser": {
-        "name": "Chrome",
-        "version": "146.0.0"
-      },
-      "os": {
-        "name": "macOS",
-        "version": "10 15 7"
-      },
-      "device_type": "computer",
-      "first_seen": "2026-04-29",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0",
-      "browser": {
-        "name": "Firefox",
-        "version": "140.0"
-      },
-      "os": {
-        "name": "Linux",
-        "version": ""
-      },
-      "device_type": "computer",
-      "first_seen": "2026-04-29",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Android 13; Mobile; rv:152.0) Gecko/152.0 Firefox/152.0",
-      "browser": {
-        "name": "Firefox",
-        "version": "152.0"
-      },
-      "os": {
-        "name": "Android",
-        "version": "13"
-      },
-      "device_type": "mobile",
-      "first_seen": "2026-06-18",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/149.0.7827.137 Mobile/15E148 Safari/604.1",
-      "browser": {
-        "name": "Chrome",
-        "version": "149.0.7827"
-      },
-      "os": {
-        "name": "iOS",
-        "version": "26 5 1"
-      },
-      "device_type": "mobile",
-      "first_seen": "2026-06-12",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_5_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/150.0.7871.34 Mobile/15E148 Safari/604.1",
-      "browser": {
-        "name": "Chrome",
-        "version": "150.0.7871"
-      },
-      "os": {
-        "name": "iOS",
-        "version": "26 5 0"
-      },
-      "device_type": "mobile",
-      "first_seen": "2026-06-18",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
-      "browser": {
-        "name": "Chrome",
-        "version": "148.0.0"
-      },
-      "os": {
-        "name": "Linux",
-        "version": ""
-      },
-      "device_type": "computer",
-      "first_seen": "2026-05-03",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Android 14; Mobile; rv:152.0) Gecko/152.0 Firefox/152.0",
-      "browser": {
-        "name": "Firefox",
-        "version": "152.0"
-      },
-      "os": {
-        "name": "Android",
-        "version": "14"
-      },
-      "device_type": "mobile",
-      "first_seen": "2026-06-06",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:153.0) Gecko/20100101 Firefox/153.0",
-      "browser": {
-        "name": "Firefox",
-        "version": "153.0"
-      },
-      "os": {
-        "name": "Windows",
-        "version": "NT 10.0"
-      },
-      "device_type": "computer",
-      "first_seen": "2026-05-21",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/30.0 Chrome/143.0.0.0 Safari/537.36",
-      "browser": {
-        "name": "Samsung Internet Browser",
-        "version": "30.0"
-      },
-      "os": {
-        "name": "Linux",
-        "version": ""
-      },
-      "device_type": "computer",
-      "first_seen": "2026-05-23",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Android 16; Mobile; rv:151.0) Gecko/151.0 Firefox/151.0",
-      "browser": {
-        "name": "Firefox",
-        "version": "151.0"
-      },
-      "os": {
-        "name": "Android",
-        "version": "16"
-      },
-      "device_type": "mobile",
-      "first_seen": "2026-04-29",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
-      "browser": {
-        "name": "Chrome",
-        "version": "150.0.0"
-      },
-      "os": {
-        "name": "Windows",
-        "version": "NT 10.0"
-      },
-      "device_type": "computer",
-      "first_seen": "2026-06-06",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Mobile Safari/537.36",
-      "browser": {
-        "name": "Chrome",
-        "version": "147.0.0"
-      },
-      "os": {
-        "name": "Android",
-        "version": "10"
-      },
-      "device_type": "mobile",
-      "first_seen": "2026-04-29",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/152.0 Mobile/15E148 Safari/604.1",
-      "browser": {
-        "name": "Firefox",
-        "version": "152.0"
-      },
-      "os": {
-        "name": "iOS",
-        "version": "18 7"
-      },
-      "device_type": "mobile",
-      "first_seen": "2026-06-16",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0",
-      "browser": {
-        "name": "Firefox",
-        "version": "152.0"
-      },
-      "os": {
-        "name": "Linux",
-        "version": ""
-      },
-      "device_type": "computer",
-      "first_seen": "2026-06-18",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (iPad; CPU OS 26_5_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/425.6.927981711 Mobile/15E148 Safari/604.1",
-      "browser": {
-        "name": "Google Search App",
-        "version": "425.6.927981711"
-      },
-      "os": {
-        "name": "iOS",
-        "version": "26 5 0"
-      },
-      "device_type": "tablet",
-      "first_seen": "2026-06-16",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0",
-      "browser": {
-        "name": "Edge",
-        "version": "149.0.0"
-      },
-      "os": {
-        "name": "macOS",
-        "version": "10 15 7"
-      },
-      "device_type": "computer",
-      "first_seen": "2026-06-08",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
-      "browser": {
-        "name": "Chrome",
-        "version": "147.0.0"
-      },
-      "os": {
-        "name": "macOS",
-        "version": "10 15 7"
-      },
-      "device_type": "computer",
-      "first_seen": "2026-04-29",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Android 10; Mobile; rv:152.0) Gecko/152.0 Firefox/152.0",
-      "browser": {
-        "name": "Firefox",
-        "version": "152.0"
-      },
-      "os": {
-        "name": "Android",
-        "version": "10"
-      },
-      "device_type": "mobile",
-      "first_seen": "2026-06-18",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (X11; Linux x86_64; rv:151.0) Gecko/20100101 Firefox/151.0",
-      "browser": {
-        "name": "Firefox",
-        "version": "151.0"
-      },
-      "os": {
-        "name": "Linux",
-        "version": ""
-      },
-      "device_type": "computer",
-      "first_seen": "2026-05-15",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (iPad; CPU OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1",
-      "browser": {
-        "name": "Safari",
-        "version": "26.5"
-      },
-      "os": {
-        "name": "iOS",
-        "version": "26 5"
-      },
-      "device_type": "tablet",
-      "first_seen": "2026-05-13",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
-      "browser": {
-        "name": "Chrome",
-        "version": "138.0.0"
-      },
-      "os": {
-        "name": "Android",
-        "version": "10"
-      },
-      "device_type": "tablet",
-      "first_seen": "2026-04-29",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15",
-      "browser": {
-        "name": "Safari",
-        "version": "18.6"
-      },
-      "os": {
-        "name": "macOS",
-        "version": ""
-      },
-      "device_type": "computer",
-      "first_seen": "2026-04-29",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
-      "browser": {
-        "name": "Edge",
-        "version": "150.0.0"
-      },
-      "os": {
-        "name": "Windows",
-        "version": "NT 10.0"
-      },
-      "device_type": "computer",
-      "first_seen": "2026-05-19",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6 Mobile/15E148 Safari/604.1",
-      "browser": {
-        "name": "Safari",
-        "version": "26.6"
-      },
-      "os": {
-        "name": "iOS",
-        "version": "26 6"
-      },
-      "device_type": "mobile",
-      "first_seen": "2026-06-20",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
-      "browser": {
-        "name": "Chrome",
-        "version": "150.0.0"
-      },
-      "os": {
-        "name": "macOS",
-        "version": "10 15 7"
-      },
-      "device_type": "computer",
-      "first_seen": "2026-06-06",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (iPad; CPU OS 26_5_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/149.0.7827.137 Mobile/15E148 Safari/604.1",
-      "browser": {
-        "name": "Chrome",
-        "version": "149.0.7827"
-      },
-      "os": {
-        "name": "iOS",
-        "version": "26 5 0"
-      },
-      "device_type": "tablet",
-      "first_seen": "2026-06-12",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/426.2.931869700 Mobile/15E148 Safari/604.1",
-      "browser": {
-        "name": "Google Search App",
-        "version": "426.2.931869700"
-      },
-      "os": {
-        "name": "iOS",
-        "version": "26 5 1"
-      },
-      "device_type": "mobile",
-      "first_seen": "2026-06-22",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36",
-      "browser": {
-        "name": "Chrome",
-        "version": "109.0.0"
-      },
-      "os": {
-        "name": "Windows",
-        "version": "NT 10.0"
-      },
-      "device_type": "computer",
-      "first_seen": "2026-04-29",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.4 Mobile/15E148 Safari/604.1",
-      "browser": {
-        "name": "Safari",
-        "version": "26.4"
-      },
-      "os": {
-        "name": "iOS",
-        "version": "26 4"
-      },
-      "device_type": "mobile",
-      "first_seen": "2026-05-03",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0 Safari/605.1.15",
-      "browser": {
-        "name": "Safari",
-        "version": "27.0"
-      },
-      "os": {
-        "name": "macOS",
-        "version": ""
-      },
-      "device_type": "computer",
-      "first_seen": "2026-06-10",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/29.0 Chrome/136.0.0.0 Mobile Safari/537.36",
-      "browser": {
-        "name": "Samsung Internet Browser",
-        "version": "29.0"
-      },
-      "os": {
-        "name": "Android",
-        "version": "10"
-      },
-      "device_type": "mobile",
-      "first_seen": "2026-04-29",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.7.5 Mobile/15E148 Safari/604.1",
-      "browser": {
-        "name": "Safari",
-        "version": "18.7.5"
-      },
-      "os": {
-        "name": "iOS",
-        "version": "18 7"
-      },
-      "device_type": "mobile",
-      "first_seen": "2026-04-29",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-      "browser": {
-        "name": "Chrome",
-        "version": "131.0.0"
-      },
-      "os": {
-        "name": "Windows",
-        "version": "NT 10.0"
-      },
-      "device_type": "computer",
-      "first_seen": "2026-04-29",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Android 12; Mobile; rv:152.0) Gecko/152.0 Firefox/152.0",
-      "browser": {
-        "name": "Firefox",
-        "version": "152.0"
-      },
-      "os": {
-        "name": "Android",
-        "version": "12"
-      },
-      "device_type": "mobile",
-      "first_seen": "2026-06-20",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/150.0.7871.34 Mobile/15E148 Safari/604.1",
-      "browser": {
-        "name": "Chrome",
-        "version": "150.0.7871"
-      },
-      "os": {
-        "name": "iOS",
-        "version": "26 5 1"
-      },
-      "device_type": "mobile",
-      "first_seen": "2026-06-20",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Windows NT 6.1; rv:109.0) Gecko/20100101 Firefox/115.0",
-      "browser": {
-        "name": "Firefox",
-        "version": "115.0"
-      },
-      "os": {
-        "name": "Windows",
-        "version": "NT 6.1"
-      },
-      "device_type": "computer",
-      "first_seen": "2026-04-29",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Mobile Safari/537.36",
-      "browser": {
-        "name": "Chrome",
-        "version": "146.0.0"
-      },
-      "os": {
-        "name": "Android",
-        "version": "10"
-      },
-      "device_type": "mobile",
-      "first_seen": "2026-04-29",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/30.0 Chrome/143.0.0.0 Safari/537.36",
-      "browser": {
-        "name": "Samsung Internet Browser",
-        "version": "30.0"
-      },
-      "os": {
-        "name": "Android",
-        "version": "10"
-      },
-      "device_type": "tablet",
-      "first_seen": "2026-05-25",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0",
-      "browser": {
-        "name": "Firefox",
-        "version": "150.0"
-      },
-      "os": {
-        "name": "Windows",
-        "version": "NT 10.0"
-      },
-      "device_type": "computer",
-      "first_seen": "2026-04-29",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1 Ddg/26.5",
-      "browser": {
-        "name": "Safari",
-        "version": "26.5"
-      },
-      "os": {
-        "name": "iOS",
-        "version": "26 5"
-      },
-      "device_type": "mobile",
-      "first_seen": "2026-05-15",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_6_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/425.6.927981711 Mobile/15E148 Safari/604.1",
-      "browser": {
-        "name": "Google Search App",
-        "version": "425.6.927981711"
-      },
-      "os": {
-        "name": "iOS",
-        "version": "26 6 0"
-      },
-      "device_type": "mobile",
-      "first_seen": "2026-06-16",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
-      "browser": {
-        "name": "Chrome",
-        "version": "148.0.0"
-      },
-      "os": {
-        "name": "Android",
-        "version": "10"
-      },
-      "device_type": "tablet",
-      "first_seen": "2026-05-07",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
-      "browser": {
-        "name": "Chrome",
-        "version": "144.0.0"
-      },
-      "os": {
-        "name": "Windows",
-        "version": "NT 10.0"
-      },
-      "device_type": "computer",
-      "first_seen": "2026-04-29",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 OPR/99.0.0.0",
-      "browser": {
-        "name": "Opera",
-        "version": "99.0.0"
-      },
-      "os": {
-        "name": "Android",
-        "version": "10"
-      },
-      "device_type": "tablet",
-      "first_seen": "2026-06-06",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
-      "browser": {
-        "name": "Chrome",
-        "version": "133.0.0"
-      },
-      "os": {
-        "name": "Windows",
-        "version": "NT 10.0"
-      },
-      "device_type": "computer",
-      "first_seen": "2026-04-30",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/152.1 Mobile/15E148 Safari/604.1",
-      "browser": {
-        "name": "Firefox",
-        "version": "152.1"
-      },
-      "os": {
-        "name": "iOS",
-        "version": "18 7"
-      },
-      "device_type": "mobile",
-      "first_seen": "2026-06-22",
-      "last_seen": "2026-06-24"
+      "last_seen": "2026-06-26"
     },
     {
       "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
@@ -1150,125 +72,55 @@
       },
       "device_type": "computer",
       "first_seen": "2026-04-29",
-      "last_seen": "2026-06-24"
+      "last_seen": "2026-06-26"
     },
     {
-      "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/30.0 Chrome/143.0.0.0 Mobile Safari/537.36",
+      "browser": {
+        "name": "Samsung Internet Browser",
+        "version": "30.0"
+      },
+      "os": {
+        "name": "Android",
+        "version": "10"
+      },
+      "device_type": "mobile",
+      "first_seen": "2026-05-13",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
       "browser": {
         "name": "Chrome",
-        "version": "137.0.0"
+        "version": "149.0.0"
       },
       "os": {
         "name": "Linux",
         "version": ""
       },
       "device_type": "computer",
-      "first_seen": "2026-04-29",
-      "last_seen": "2026-06-24"
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-26"
     },
     {
-      "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
-      "browser": {
-        "name": "Chrome",
-        "version": "145.0.0"
-      },
-      "os": {
-        "name": "Linux",
-        "version": ""
-      },
-      "device_type": "computer",
-      "first_seen": "2026-04-29",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Android 11; Mobile; rv:152.0) Gecko/152.0 Firefox/152.0",
+      "ua": "Mozilla/5.0 (Android 16; Mobile; rv:152.0) Gecko/152.0 Firefox/152.0",
       "browser": {
         "name": "Firefox",
         "version": "152.0"
       },
       "os": {
         "name": "Android",
-        "version": "11"
-      },
-      "device_type": "mobile",
-      "first_seen": "2026-06-22",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3 Mobile/15E148 Safari/604.1",
-      "browser": {
-        "name": "Safari",
-        "version": "26.3"
-      },
-      "os": {
-        "name": "iOS",
-        "version": "26 3"
+        "version": "16"
       },
       "device_type": "mobile",
       "first_seen": "2026-04-29",
-      "last_seen": "2026-06-24"
+      "last_seen": "2026-06-26"
     },
     {
-      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Mobile Safari/537.36 (Ecosia android@148.0.0.0)",
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
       "browser": {
         "name": "Chrome",
-        "version": "148.0.0"
-      },
-      "os": {
-        "name": "Android",
-        "version": "10"
-      },
-      "device_type": "mobile",
-      "first_seen": "2026-06-06",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_5_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) EdgiOS/149.0.4022.80 Version/26.0 Mobile/15E148 Safari/604.1",
-      "browser": {
-        "name": "Edge",
-        "version": "149.0.4022"
-      },
-      "os": {
-        "name": "iOS",
-        "version": "26 0"
-      },
-      "device_type": "mobile",
-      "first_seen": "2026-06-24",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36",
-      "browser": {
-        "name": "Chrome",
-        "version": "143.0.0"
-      },
-      "os": {
-        "name": "Android",
-        "version": "10"
-      },
-      "device_type": "mobile",
-      "first_seen": "2026-04-29",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_5_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) EdgiOS/149.0.4022.68 Version/26.0 Mobile/15E148 Safari/604.1",
-      "browser": {
-        "name": "Edge",
-        "version": "149.0.4022"
-      },
-      "os": {
-        "name": "iOS",
-        "version": "26 0"
-      },
-      "device_type": "mobile",
-      "first_seen": "2026-06-16",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0",
-      "browser": {
-        "name": "Edge",
-        "version": "144.0.0"
+        "version": "131.0.0"
       },
       "os": {
         "name": "Windows",
@@ -1276,139 +128,69 @@
       },
       "device_type": "computer",
       "first_seen": "2026-04-29",
-      "last_seen": "2026-06-24"
+      "last_seen": "2026-06-26"
     },
     {
-      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36",
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
       "browser": {
         "name": "Chrome",
-        "version": "137.0.0"
-      },
-      "os": {
-        "name": "Android",
-        "version": "10"
-      },
-      "device_type": "mobile",
-      "first_seen": "2026-04-29",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:154.0) Gecko/20100101 Firefox/154.0",
-      "browser": {
-        "name": "Firefox",
-        "version": "154.0"
+        "version": "116.0.0"
       },
       "os": {
         "name": "Windows",
         "version": "NT 10.0"
       },
       "device_type": "computer",
-      "first_seen": "2026-06-18",
-      "last_seen": "2026-06-24"
+      "first_seen": "2026-05-05",
+      "last_seen": "2026-06-26"
     },
     {
-      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 27_0_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/425.6.927981711 Mobile/15E148 Safari/604.1",
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+      "browser": {
+        "name": "Chrome",
+        "version": "133.0.0"
+      },
+      "os": {
+        "name": "Windows",
+        "version": "NT 10.0"
+      },
+      "device_type": "computer",
+      "first_seen": "2026-04-30",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "browser": {
+        "name": "Chrome",
+        "version": "149.0.0"
+      },
+      "os": {
+        "name": "Android",
+        "version": "10"
+      },
+      "device_type": "tablet",
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_5_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/425.6.927981711 Mobile/15E148 Safari/604.1",
       "browser": {
         "name": "Google Search App",
         "version": "425.6.927981711"
       },
       "os": {
         "name": "iOS",
-        "version": "27 0 0"
+        "version": "26 5 0"
       },
       "device_type": "mobile",
       "first_seen": "2026-06-16",
-      "last_seen": "2026-06-24"
+      "last_seen": "2026-06-26"
     },
     {
-      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36",
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
       "browser": {
         "name": "Chrome",
-        "version": "140.0.0"
-      },
-      "os": {
-        "name": "Android",
-        "version": "10"
-      },
-      "device_type": "mobile",
-      "first_seen": "2026-04-29",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:151.0) Gecko/20100101 Firefox/151.0",
-      "browser": {
-        "name": "Firefox",
-        "version": "151.0"
-      },
-      "os": {
-        "name": "macOS",
-        "version": "10 15"
-      },
-      "device_type": "computer",
-      "first_seen": "2026-05-19",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 OPR/133.0.0.0",
-      "browser": {
-        "name": "Opera",
-        "version": "133.0.0"
-      },
-      "os": {
-        "name": "Linux",
-        "version": ""
-      },
-      "device_type": "computer",
-      "first_seen": "2026-06-06",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (iPad; CPU OS 26_5_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/150.0.7871.34 Mobile/15E148 Safari/604.1",
-      "browser": {
-        "name": "Chrome",
-        "version": "150.0.7871"
-      },
-      "os": {
-        "name": "iOS",
-        "version": "26 5 0"
-      },
-      "device_type": "tablet",
-      "first_seen": "2026-06-20",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36",
-      "browser": {
-        "name": "Chrome",
-        "version": "144.0.0"
-      },
-      "os": {
-        "name": "Android",
-        "version": "10"
-      },
-      "device_type": "mobile",
-      "first_seen": "2026-04-29",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0",
-      "browser": {
-        "name": "Firefox",
-        "version": "115.0"
-      },
-      "os": {
-        "name": "Windows",
-        "version": "NT 6.3"
-      },
-      "device_type": "computer",
-      "first_seen": "2026-04-29",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0",
-      "browser": {
-        "name": "Firefox",
-        "version": "149.0"
+        "version": "148.0.0"
       },
       "os": {
         "name": "Windows",
@@ -1416,94 +198,10 @@
       },
       "device_type": "computer",
       "first_seen": "2026-04-29",
-      "last_seen": "2026-06-24"
+      "last_seen": "2026-06-26"
     },
     {
-      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
-      "browser": {
-        "name": "Chrome",
-        "version": "143.0.0"
-      },
-      "os": {
-        "name": "Windows",
-        "version": "NT 10.0"
-      },
-      "device_type": "computer",
-      "first_seen": "2026-04-29",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0",
-      "browser": {
-        "name": "Edge",
-        "version": "151.0.0"
-      },
-      "os": {
-        "name": "Windows",
-        "version": "NT 10.0"
-      },
-      "device_type": "computer",
-      "first_seen": "2026-06-12",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
-      "browser": {
-        "name": "Chrome",
-        "version": "137.0.0"
-      },
-      "os": {
-        "name": "macOS",
-        "version": "10 15 7"
-      },
-      "device_type": "computer",
-      "first_seen": "2026-05-21",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.7.6 Mobile/15E148 Safari/604.1",
-      "browser": {
-        "name": "Safari",
-        "version": "18.7.6"
-      },
-      "os": {
-        "name": "iOS",
-        "version": "18 7"
-      },
-      "device_type": "mobile",
-      "first_seen": "2026-05-17",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0 TO-Browser/TOB7.150.0.411_01",
-      "browser": {
-        "name": "TO Browser",
-        "version": "7.150.0"
-      },
-      "os": {
-        "name": "Windows",
-        "version": "NT 10.0"
-      },
-      "device_type": "computer",
-      "first_seen": "2026-05-27",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36",
-      "browser": {
-        "name": "Chrome",
-        "version": "145.0.0"
-      },
-      "os": {
-        "name": "Android",
-        "version": "10"
-      },
-      "device_type": "mobile",
-      "first_seen": "2026-04-29",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15 Ddg/26.5",
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15",
       "browser": {
         "name": "Safari",
         "version": "26.5"
@@ -1513,112 +211,42 @@
         "version": ""
       },
       "device_type": "computer",
-      "first_seen": "2026-05-25",
-      "last_seen": "2026-06-24"
+      "first_seen": "2026-04-29",
+      "last_seen": "2026-06-26"
     },
     {
-      "ua": "Mozilla/5.0 (Android 15; Mobile; rv:151.0) Gecko/151.0 Firefox/151.0",
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:140.0) Gecko/20100101 Firefox/140.0",
       "browser": {
         "name": "Firefox",
-        "version": "151.0"
+        "version": "140.0"
       },
       "os": {
-        "name": "Android",
-        "version": "15"
+        "name": "Windows",
+        "version": "NT 10.0"
       },
-      "device_type": "mobile",
-      "first_seen": "2026-05-21",
-      "last_seen": "2026-06-24"
+      "device_type": "computer",
+      "first_seen": "2026-04-29",
+      "last_seen": "2026-06-26"
     },
     {
-      "ua": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:151.0) Gecko/20100101 Firefox/151.0",
+      "ua": "Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0",
       "browser": {
         "name": "Firefox",
-        "version": "151.0"
+        "version": "152.0"
       },
       "os": {
         "name": "Linux",
         "version": ""
       },
       "device_type": "computer",
-      "first_seen": "2026-05-21",
-      "last_seen": "2026-06-24"
+      "first_seen": "2026-06-16",
+      "last_seen": "2026-06-26"
     },
     {
-      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Mobile/15E148 Safari/604.1",
-      "browser": {
-        "name": "Safari",
-        "version": "26.2"
-      },
-      "os": {
-        "name": "iOS",
-        "version": "26 2"
-      },
-      "device_type": "mobile",
-      "first_seen": "2026-04-29",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6 Safari/605.1.15",
-      "browser": {
-        "name": "Safari",
-        "version": "26.6"
-      },
-      "os": {
-        "name": "macOS",
-        "version": ""
-      },
-      "device_type": "computer",
-      "first_seen": "2026-06-18",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36",
       "browser": {
         "name": "Chrome",
-        "version": "118.0.0"
-      },
-      "os": {
-        "name": "Linux",
-        "version": ""
-      },
-      "device_type": "computer",
-      "first_seen": "2026-04-29",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 27_0_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/426.2.931869700 Mobile/15E148 Safari/604.1",
-      "browser": {
-        "name": "Google Search App",
-        "version": "426.2.931869700"
-      },
-      "os": {
-        "name": "iOS",
-        "version": "27 0 0"
-      },
-      "device_type": "mobile",
-      "first_seen": "2026-06-24",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Mobile Safari/537.36",
-      "browser": {
-        "name": "Chrome",
-        "version": "139.0.0"
-      },
-      "os": {
-        "name": "Android",
-        "version": "10"
-      },
-      "device_type": "mobile",
-      "first_seen": "2026-04-29",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "browser": {
-        "name": "Chrome",
-        "version": "120.0.0"
+        "version": "109.0.0"
       },
       "os": {
         "name": "Windows",
@@ -1626,217 +254,35 @@
       },
       "device_type": "computer",
       "first_seen": "2026-04-29",
-      "last_seen": "2026-06-24"
+      "last_seen": "2026-06-26"
     },
     {
-      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0",
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
       "browser": {
-        "name": "Firefox",
-        "version": "148.0"
+        "name": "Chrome",
+        "version": "108.0.0"
       },
       "os": {
         "name": "Windows",
         "version": "NT 10.0"
       },
       "device_type": "computer",
-      "first_seen": "2026-04-29",
-      "last_seen": "2026-06-24"
+      "first_seen": "2026-06-02",
+      "last_seen": "2026-06-26"
     },
     {
-      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_6_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/149.0.7827.137 Mobile/15E148 Safari/604.1",
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.3",
       "browser": {
         "name": "Chrome",
-        "version": "149.0.7827"
-      },
-      "os": {
-        "name": "iOS",
-        "version": "26 6 0"
-      },
-      "device_type": "mobile",
-      "first_seen": "2026-06-12",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 Edg/147.0.0.0",
-      "browser": {
-        "name": "Edge",
-        "version": "147.0.0"
+        "version": "105.0.0"
       },
       "os": {
         "name": "Windows",
         "version": "NT 10.0"
       },
       "device_type": "computer",
-      "first_seen": "2026-04-29",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7_9 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/425.6.927981711 Mobile/15E148 Safari/604.1",
-      "browser": {
-        "name": "Google Search App",
-        "version": "425.6.927981711"
-      },
-      "os": {
-        "name": "iOS",
-        "version": "18 7 9"
-      },
-      "device_type": "mobile",
-      "first_seen": "2026-06-18",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 OPR/132.0.0.0",
-      "browser": {
-        "name": "Opera",
-        "version": "132.0.0"
-      },
-      "os": {
-        "name": "macOS",
-        "version": "10 15 7"
-      },
-      "device_type": "computer",
-      "first_seen": "2026-06-10",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0",
-      "browser": {
-        "name": "Edge",
-        "version": "146.0.0"
-      },
-      "os": {
-        "name": "Windows",
-        "version": "NT 10.0"
-      },
-      "device_type": "computer",
-      "first_seen": "2026-04-29",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-      "browser": {
-        "name": "Chrome",
-        "version": "149.0.0"
-      },
-      "os": {
-        "name": "Chrome OS",
-        "version": "14541 0 0"
-      },
-      "device_type": "computer",
-      "first_seen": "2026-06-20",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 27_0_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/150.0.7871.34 Mobile/15E148 Safari/604.1",
-      "browser": {
-        "name": "Chrome",
-        "version": "150.0.7871"
-      },
-      "os": {
-        "name": "iOS",
-        "version": "27 0 0"
-      },
-      "device_type": "mobile",
-      "first_seen": "2026-06-22",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.4 Safari/605.1.15",
-      "browser": {
-        "name": "Safari",
-        "version": "26.4"
-      },
-      "os": {
-        "name": "macOS",
-        "version": ""
-      },
-      "device_type": "computer",
-      "first_seen": "2026-04-29",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (iPad; CPU OS 26_5_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/426.2.931869700 Mobile/15E148 Safari/604.1",
-      "browser": {
-        "name": "Google Search App",
-        "version": "426.2.931869700"
-      },
-      "os": {
-        "name": "iOS",
-        "version": "26 5 0"
-      },
-      "device_type": "tablet",
-      "first_seen": "2026-06-24",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/425.6.927981711 Mobile/15E148 Safari/604.1",
-      "browser": {
-        "name": "Google Search App",
-        "version": "425.6.927981711"
-      },
-      "os": {
-        "name": "iOS",
-        "version": "26 4 2"
-      },
-      "device_type": "mobile",
-      "first_seen": "2026-06-18",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Android 16; Mobile; rv:154.0) Gecko/154.0 Firefox/154.0",
-      "browser": {
-        "name": "Firefox",
-        "version": "154.0"
-      },
-      "os": {
-        "name": "Android",
-        "version": "16"
-      },
-      "device_type": "mobile",
-      "first_seen": "2026-06-18",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.14 Safari/605.1.15",
-      "browser": {
-        "name": "Safari",
-        "version": "17.14"
-      },
-      "os": {
-        "name": "macOS",
-        "version": ""
-      },
-      "device_type": "computer",
-      "first_seen": "2026-04-29",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1 OPT/6.5.3",
-      "browser": {
-        "name": "Opera Touch",
-        "version": "6.5.3"
-      },
-      "os": {
-        "name": "iOS",
-        "version": "26 5"
-      },
-      "device_type": "mobile",
-      "first_seen": "2026-06-14",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/29.0 Chrome/136.0.0.0 Safari/537.36",
-      "browser": {
-        "name": "Samsung Internet Browser",
-        "version": "29.0"
-      },
-      "os": {
-        "name": "Android",
-        "version": "10"
-      },
-      "device_type": "tablet",
-      "first_seen": "2026-04-29",
-      "last_seen": "2026-06-24"
+      "first_seen": "2026-05-13",
+      "last_seen": "2026-06-26"
     },
     {
       "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36",
@@ -1850,7 +296,63 @@
       },
       "device_type": "computer",
       "first_seen": "2026-05-05",
-      "last_seen": "2026-06-24"
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36",
+      "browser": {
+        "name": "Chrome",
+        "version": "107.0.0"
+      },
+      "os": {
+        "name": "Windows",
+        "version": "NT 10.0"
+      },
+      "device_type": "computer",
+      "first_seen": "2026-05-05",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36",
+      "browser": {
+        "name": "Chrome",
+        "version": "103.0.0"
+      },
+      "os": {
+        "name": "Windows",
+        "version": "NT 10.0"
+      },
+      "device_type": "computer",
+      "first_seen": "2026-05-09",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "browser": {
+        "name": "Chrome",
+        "version": "120.0.0"
+      },
+      "os": {
+        "name": "Windows",
+        "version": "NT 10.0"
+      },
+      "device_type": "computer",
+      "first_seen": "2026-04-29",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",
+      "browser": {
+        "name": "Chrome",
+        "version": "117.0.0"
+      },
+      "os": {
+        "name": "Windows",
+        "version": "NT 10.0"
+      },
+      "device_type": "computer",
+      "first_seen": "2026-05-05",
+      "last_seen": "2026-06-26"
     },
     {
       "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
@@ -1864,13 +366,69 @@
       },
       "device_type": "computer",
       "first_seen": "2026-04-29",
-      "last_seen": "2026-06-24"
+      "last_seen": "2026-06-26"
     },
     {
-      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Mobile Safari/537.36",
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
       "browser": {
         "name": "Chrome",
-        "version": "119.0.0"
+        "version": "111.0.0"
+      },
+      "os": {
+        "name": "Windows",
+        "version": "NT 10.0"
+      },
+      "device_type": "computer",
+      "first_seen": "2026-05-11",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+      "browser": {
+        "name": "Chrome",
+        "version": "110.0.0"
+      },
+      "os": {
+        "name": "Windows",
+        "version": "NT 10.0"
+      },
+      "device_type": "computer",
+      "first_seen": "2026-06-26",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.81 Safari/537.36",
+      "browser": {
+        "name": "Chrome",
+        "version": "104.0.5112"
+      },
+      "os": {
+        "name": "Windows",
+        "version": "NT 10.0"
+      },
+      "device_type": "computer",
+      "first_seen": "2026-05-09",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.5249.119 Safari/537.36",
+      "browser": {
+        "name": "Chrome",
+        "version": "106.0.5249"
+      },
+      "os": {
+        "name": "Windows",
+        "version": "NT 10.0"
+      },
+      "device_type": "computer",
+      "first_seen": "2026-05-11",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Mobile Safari/537.36",
+      "browser": {
+        "name": "Chrome",
+        "version": "148.0.0"
       },
       "os": {
         "name": "Android",
@@ -1878,38 +436,752 @@
       },
       "device_type": "mobile",
       "first_seen": "2026-04-29",
-      "last_seen": "2026-06-24"
+      "last_seen": "2026-06-26"
     },
     {
-      "ua": "Mozilla/5.0 (Android 10; Mobile; rv:151.0) Gecko/151.0 Firefox/151.0",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_5_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/149.0.7827.137 Mobile/15E148 Safari/604.1",
+      "browser": {
+        "name": "Chrome",
+        "version": "149.0.7827"
+      },
+      "os": {
+        "name": "iOS",
+        "version": "26 5 0"
+      },
+      "device_type": "mobile",
+      "first_seen": "2026-06-12",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "browser": {
+        "name": "Chrome",
+        "version": "149.0.0"
+      },
+      "os": {
+        "name": "macOS",
+        "version": "10 15 7"
+      },
+      "device_type": "computer",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Mobile Safari/537.36 OPR/99.0.0.0",
+      "browser": {
+        "name": "Opera",
+        "version": "99.0.0"
+      },
+      "os": {
+        "name": "Android",
+        "version": "10"
+      },
+      "device_type": "mobile",
+      "first_seen": "2026-06-02",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 OPR/132.0.0.0",
+      "browser": {
+        "name": "Opera",
+        "version": "132.0.0"
+      },
+      "os": {
+        "name": "Windows",
+        "version": "NT 10.0"
+      },
+      "device_type": "computer",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36 EdgA/149.0.0.0",
+      "browser": {
+        "name": "Edge",
+        "version": "149.0.0"
+      },
+      "os": {
+        "name": "Android",
+        "version": "10"
+      },
+      "device_type": "mobile",
+      "first_seen": "2026-05-03",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 OPR/131.0.0.0",
+      "browser": {
+        "name": "Opera",
+        "version": "131.0.0"
+      },
+      "os": {
+        "name": "Windows",
+        "version": "NT 10.0"
+      },
+      "device_type": "computer",
+      "first_seen": "2026-04-29",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:151.0) Gecko/20100101 Firefox/151.0",
+      "browser": {
+        "name": "Firefox",
+        "version": "151.0"
+      },
+      "os": {
+        "name": "Windows",
+        "version": "NT 10.0"
+      },
+      "device_type": "computer",
+      "first_seen": "2026-04-29",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:152.0) Gecko/20100101 Firefox/152.0",
+      "browser": {
+        "name": "Firefox",
+        "version": "152.0"
+      },
+      "os": {
+        "name": "macOS",
+        "version": "10 15"
+      },
+      "device_type": "computer",
+      "first_seen": "2026-05-01",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Android 17; Mobile; rv:152.0) Gecko/152.0 Firefox/152.0",
+      "browser": {
+        "name": "Firefox",
+        "version": "152.0"
+      },
+      "os": {
+        "name": "Android",
+        "version": "17"
+      },
+      "device_type": "mobile",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/425.6.927981711 Mobile/15E148 Safari/604.1",
+      "browser": {
+        "name": "Google Search App",
+        "version": "425.6.927981711"
+      },
+      "os": {
+        "name": "iOS",
+        "version": "26 5 1"
+      },
+      "device_type": "mobile",
+      "first_seen": "2026-06-16",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36",
+      "browser": {
+        "name": "Chrome",
+        "version": "138.0.0"
+      },
+      "os": {
+        "name": "Android",
+        "version": "10"
+      },
+      "device_type": "mobile",
+      "first_seen": "2026-04-29",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_5_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/426.2.931869700 Mobile/15E148 Safari/604.1",
+      "browser": {
+        "name": "Google Search App",
+        "version": "426.2.931869700"
+      },
+      "os": {
+        "name": "iOS",
+        "version": "26 5 0"
+      },
+      "device_type": "mobile",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Mobile Safari/537.36",
+      "browser": {
+        "name": "Chrome",
+        "version": "150.0.0"
+      },
+      "os": {
+        "name": "Android",
+        "version": "10"
+      },
+      "device_type": "mobile",
+      "first_seen": "2026-05-23",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0",
+      "browser": {
+        "name": "Firefox",
+        "version": "115.0"
+      },
+      "os": {
+        "name": "Windows",
+        "version": "NT 6.1"
+      },
+      "device_type": "computer",
+      "first_seen": "2026-04-29",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "browser": {
+        "name": "Chrome",
+        "version": "150.0.0"
+      },
+      "os": {
+        "name": "Windows",
+        "version": "NT 10.0"
+      },
+      "device_type": "computer",
+      "first_seen": "2026-06-06",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/149.0.7827.137 Mobile/15E148 Safari/604.1",
+      "browser": {
+        "name": "Chrome",
+        "version": "149.0.7827"
+      },
+      "os": {
+        "name": "iOS",
+        "version": "26 5 1"
+      },
+      "device_type": "mobile",
+      "first_seen": "2026-06-12",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Android 15; Mobile; rv:152.0) Gecko/152.0 Firefox/152.0",
+      "browser": {
+        "name": "Firefox",
+        "version": "152.0"
+      },
+      "os": {
+        "name": "Android",
+        "version": "15"
+      },
+      "device_type": "mobile",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "browser": {
+        "name": "Chrome",
+        "version": "145.0.0"
+      },
+      "os": {
+        "name": "Windows",
+        "version": "NT 10.0"
+      },
+      "device_type": "computer",
+      "first_seen": "2026-04-29",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "browser": {
+        "name": "Chrome",
+        "version": "148.0.0"
+      },
+      "os": {
+        "name": "macOS",
+        "version": "10 15 7"
+      },
+      "device_type": "computer",
+      "first_seen": "2026-05-07",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:153.0) Gecko/20100101 Firefox/153.0",
+      "browser": {
+        "name": "Firefox",
+        "version": "153.0"
+      },
+      "os": {
+        "name": "Windows",
+        "version": "NT 10.0"
+      },
+      "device_type": "computer",
+      "first_seen": "2026-05-21",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Android 13; Mobile; rv:152.0) Gecko/152.0 Firefox/152.0",
+      "browser": {
+        "name": "Firefox",
+        "version": "152.0"
+      },
+      "os": {
+        "name": "Android",
+        "version": "13"
+      },
+      "device_type": "mobile",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+      "browser": {
+        "name": "Chrome",
+        "version": "146.0.0"
+      },
+      "os": {
+        "name": "Windows",
+        "version": "NT 10.0"
+      },
+      "device_type": "computer",
+      "first_seen": "2026-04-29",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Android 14; Mobile; rv:152.0) Gecko/152.0 Firefox/152.0",
+      "browser": {
+        "name": "Firefox",
+        "version": "152.0"
+      },
+      "os": {
+        "name": "Android",
+        "version": "14"
+      },
+      "device_type": "mobile",
+      "first_seen": "2026-06-06",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/30.0 Chrome/143.0.0.0 Safari/537.36",
+      "browser": {
+        "name": "Samsung Internet Browser",
+        "version": "30.0"
+      },
+      "os": {
+        "name": "Linux",
+        "version": ""
+      },
+      "device_type": "computer",
+      "first_seen": "2026-05-23",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0",
+      "browser": {
+        "name": "Firefox",
+        "version": "140.0"
+      },
+      "os": {
+        "name": "Linux",
+        "version": ""
+      },
+      "device_type": "computer",
+      "first_seen": "2026-04-29",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (iPad; CPU OS 26_5_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/425.6.927981711 Mobile/15E148 Safari/604.1",
+      "browser": {
+        "name": "Google Search App",
+        "version": "425.6.927981711"
+      },
+      "os": {
+        "name": "iOS",
+        "version": "26 5 0"
+      },
+      "device_type": "tablet",
+      "first_seen": "2026-06-16",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "browser": {
+        "name": "Chrome",
+        "version": "148.0.0"
+      },
+      "os": {
+        "name": "Linux",
+        "version": ""
+      },
+      "device_type": "computer",
+      "first_seen": "2026-05-03",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "browser": {
+        "name": "Chrome",
+        "version": "147.0.0"
+      },
+      "os": {
+        "name": "Windows",
+        "version": "NT 10.0"
+      },
+      "device_type": "computer",
+      "first_seen": "2026-04-29",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15",
+      "browser": {
+        "name": "Safari",
+        "version": "18.6"
+      },
+      "os": {
+        "name": "macOS",
+        "version": ""
+      },
+      "device_type": "computer",
+      "first_seen": "2026-04-29",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (iPad; CPU OS 26_5_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/149.0.7827.137 Mobile/15E148 Safari/604.1",
+      "browser": {
+        "name": "Chrome",
+        "version": "149.0.7827"
+      },
+      "os": {
+        "name": "iOS",
+        "version": "26 5 0"
+      },
+      "device_type": "tablet",
+      "first_seen": "2026-06-12",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Android 10; Mobile; rv:152.0) Gecko/152.0 Firefox/152.0",
+      "browser": {
+        "name": "Firefox",
+        "version": "152.0"
+      },
+      "os": {
+        "name": "Android",
+        "version": "10"
+      },
+      "device_type": "mobile",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/152.0 Mobile/15E148 Safari/604.1",
+      "browser": {
+        "name": "Firefox",
+        "version": "152.0"
+      },
+      "os": {
+        "name": "iOS",
+        "version": "18 7"
+      },
+      "device_type": "mobile",
+      "first_seen": "2026-06-16",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0",
+      "browser": {
+        "name": "Firefox",
+        "version": "152.0"
+      },
+      "os": {
+        "name": "Linux",
+        "version": ""
+      },
+      "device_type": "computer",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Mobile Safari/537.36",
+      "browser": {
+        "name": "Chrome",
+        "version": "147.0.0"
+      },
+      "os": {
+        "name": "Android",
+        "version": "10"
+      },
+      "device_type": "mobile",
+      "first_seen": "2026-04-29",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_5_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/150.0.7871.51 Mobile/15E148 Safari/604.1",
+      "browser": {
+        "name": "Chrome",
+        "version": "150.0.7871"
+      },
+      "os": {
+        "name": "iOS",
+        "version": "26 5 0"
+      },
+      "device_type": "mobile",
+      "first_seen": "2026-06-26",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      "browser": {
+        "name": "Chrome",
+        "version": "138.0.0"
+      },
+      "os": {
+        "name": "Android",
+        "version": "10"
+      },
+      "device_type": "tablet",
+      "first_seen": "2026-04-29",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+      "browser": {
+        "name": "Edge",
+        "version": "150.0.0"
+      },
+      "os": {
+        "name": "Windows",
+        "version": "NT 10.0"
+      },
+      "device_type": "computer",
+      "first_seen": "2026-05-19",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0",
+      "browser": {
+        "name": "Edge",
+        "version": "149.0.0"
+      },
+      "os": {
+        "name": "macOS",
+        "version": "10 15 7"
+      },
+      "device_type": "computer",
+      "first_seen": "2026-06-08",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/426.2.931869700 Mobile/15E148 Safari/604.1",
+      "browser": {
+        "name": "Google Search App",
+        "version": "426.2.931869700"
+      },
+      "os": {
+        "name": "iOS",
+        "version": "26 5 1"
+      },
+      "device_type": "mobile",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_5_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/150.0.7871.34 Mobile/15E148 Safari/604.1",
+      "browser": {
+        "name": "Chrome",
+        "version": "150.0.7871"
+      },
+      "os": {
+        "name": "iOS",
+        "version": "26 5 0"
+      },
+      "device_type": "mobile",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Android 16; Mobile; rv:151.0) Gecko/151.0 Firefox/151.0",
       "browser": {
         "name": "Firefox",
         "version": "151.0"
       },
       "os": {
         "name": "Android",
-        "version": "10"
+        "version": "16"
       },
       "device_type": "mobile",
-      "first_seen": "2026-05-21",
-      "last_seen": "2026-06-24"
+      "first_seen": "2026-04-29",
+      "last_seen": "2026-06-26"
     },
     {
-      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/26.0 Chrome/122.0.0.0 Mobile Safari/537.36",
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.4 Mobile/15E148 Safari/604.1",
+      "browser": {
+        "name": "Safari",
+        "version": "26.4"
+      },
+      "os": {
+        "name": "iOS",
+        "version": "26 4"
+      },
+      "device_type": "mobile",
+      "first_seen": "2026-05-03",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6 Mobile/15E148 Safari/604.1",
+      "browser": {
+        "name": "Safari",
+        "version": "26.6"
+      },
+      "os": {
+        "name": "iOS",
+        "version": "26 6"
+      },
+      "device_type": "mobile",
+      "first_seen": "2026-06-20",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (iPad; CPU OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1",
+      "browser": {
+        "name": "Safari",
+        "version": "26.5"
+      },
+      "os": {
+        "name": "iOS",
+        "version": "26 5"
+      },
+      "device_type": "tablet",
+      "first_seen": "2026-05-13",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/29.0 Chrome/136.0.0.0 Mobile Safari/537.36",
       "browser": {
         "name": "Samsung Internet Browser",
-        "version": "26.0"
+        "version": "29.0"
       },
       "os": {
         "name": "Android",
         "version": "10"
       },
       "device_type": "mobile",
-      "first_seen": "2026-04-30",
-      "last_seen": "2026-06-24"
+      "first_seen": "2026-04-29",
+      "last_seen": "2026-06-26"
     },
     {
-      "ua": "Mozilla/5.0 (iPad; CPU OS 26_5_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) EdgiOS/149.0.4022.80 Version/26.0 Mobile/15E148 Safari/604.1",
+      "ua": "Mozilla/5.0 (X11; Linux x86_64; rv:151.0) Gecko/20100101 Firefox/151.0",
+      "browser": {
+        "name": "Firefox",
+        "version": "151.0"
+      },
+      "os": {
+        "name": "Linux",
+        "version": ""
+      },
+      "device_type": "computer",
+      "first_seen": "2026-05-15",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Android 12; Mobile; rv:152.0) Gecko/152.0 Firefox/152.0",
+      "browser": {
+        "name": "Firefox",
+        "version": "152.0"
+      },
+      "os": {
+        "name": "Android",
+        "version": "12"
+      },
+      "device_type": "mobile",
+      "first_seen": "2026-06-20",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 OPR/99.0.0.0",
+      "browser": {
+        "name": "Opera",
+        "version": "99.0.0"
+      },
+      "os": {
+        "name": "Android",
+        "version": "10"
+      },
+      "device_type": "tablet",
+      "first_seen": "2026-06-06",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "browser": {
+        "name": "Chrome",
+        "version": "150.0.0"
+      },
+      "os": {
+        "name": "macOS",
+        "version": "10 15 7"
+      },
+      "device_type": "computer",
+      "first_seen": "2026-06-06",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3 Mobile/15E148 Safari/604.1",
+      "browser": {
+        "name": "Safari",
+        "version": "26.3"
+      },
+      "os": {
+        "name": "iOS",
+        "version": "26 3"
+      },
+      "device_type": "mobile",
+      "first_seen": "2026-04-29",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1 Ddg/26.5",
+      "browser": {
+        "name": "Safari",
+        "version": "26.5"
+      },
+      "os": {
+        "name": "iOS",
+        "version": "26 5"
+      },
+      "device_type": "mobile",
+      "first_seen": "2026-05-15",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.7.5 Mobile/15E148 Safari/604.1",
+      "browser": {
+        "name": "Safari",
+        "version": "18.7.5"
+      },
+      "os": {
+        "name": "iOS",
+        "version": "18 7"
+      },
+      "device_type": "mobile",
+      "first_seen": "2026-04-29",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/152.1 Mobile/15E148 Safari/604.1",
+      "browser": {
+        "name": "Firefox",
+        "version": "152.1"
+      },
+      "os": {
+        "name": "iOS",
+        "version": "18 7"
+      },
+      "device_type": "mobile",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_5_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) EdgiOS/149.0.4022.80 Version/26.0 Mobile/15E148 Safari/604.1",
       "browser": {
         "name": "Edge",
         "version": "149.0.4022"
@@ -1918,23 +1190,653 @@
         "name": "iOS",
         "version": "26 0"
       },
-      "device_type": "tablet",
+      "device_type": "mobile",
       "first_seen": "2026-06-24",
-      "last_seen": "2026-06-24"
+      "last_seen": "2026-06-26"
     },
     {
-      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:140.0) Gecko/20100101 Firefox/140.0",
+      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "browser": {
+        "name": "Chrome",
+        "version": "148.0.0"
+      },
+      "os": {
+        "name": "Android",
+        "version": "10"
+      },
+      "device_type": "tablet",
+      "first_seen": "2026-05-07",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+      "browser": {
+        "name": "Chrome",
+        "version": "138.0.0"
+      },
+      "os": {
+        "name": "Windows",
+        "version": "NT 10.0"
+      },
+      "device_type": "computer",
+      "first_seen": "2026-04-29",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "browser": {
+        "name": "Chrome",
+        "version": "137.0.0"
+      },
+      "os": {
+        "name": "Linux",
+        "version": ""
+      },
+      "device_type": "computer",
+      "first_seen": "2026-04-29",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Mobile Safari/537.36",
+      "browser": {
+        "name": "Chrome",
+        "version": "146.0.0"
+      },
+      "os": {
+        "name": "Android",
+        "version": "10"
+      },
+      "device_type": "mobile",
+      "first_seen": "2026-04-29",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_5_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/426.5.931869700 Mobile/15E148 Safari/604.1",
+      "browser": {
+        "name": "Google Search App",
+        "version": "426.5.931869700"
+      },
+      "os": {
+        "name": "iOS",
+        "version": "26 5 0"
+      },
+      "device_type": "mobile",
+      "first_seen": "2026-06-26",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:154.0) Gecko/20100101 Firefox/154.0",
       "browser": {
         "name": "Firefox",
-        "version": "140.0"
+        "version": "154.0"
+      },
+      "os": {
+        "name": "Windows",
+        "version": "NT 10.0"
+      },
+      "device_type": "computer",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/30.0 Chrome/143.0.0.0 Safari/537.36",
+      "browser": {
+        "name": "Samsung Internet Browser",
+        "version": "30.0"
+      },
+      "os": {
+        "name": "Android",
+        "version": "10"
+      },
+      "device_type": "tablet",
+      "first_seen": "2026-05-25",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Android 11; Mobile; rv:152.0) Gecko/152.0 Firefox/152.0",
+      "browser": {
+        "name": "Firefox",
+        "version": "152.0"
+      },
+      "os": {
+        "name": "Android",
+        "version": "11"
+      },
+      "device_type": "mobile",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36",
+      "browser": {
+        "name": "Chrome",
+        "version": "143.0.0"
+      },
+      "os": {
+        "name": "Android",
+        "version": "10"
+      },
+      "device_type": "mobile",
+      "first_seen": "2026-04-29",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Norton/148.0.0.0",
+      "browser": {
+        "name": "Chrome",
+        "version": "148.0.0"
+      },
+      "os": {
+        "name": "Windows",
+        "version": "NT 10.0"
+      },
+      "device_type": "computer",
+      "first_seen": "2026-06-26",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0 Safari/605.1.15",
+      "browser": {
+        "name": "Safari",
+        "version": "27.0"
       },
       "os": {
         "name": "macOS",
-        "version": "10 15"
+        "version": ""
       },
       "device_type": "computer",
-      "first_seen": "2026-05-05",
-      "last_seen": "2026-06-24"
+      "first_seen": "2026-06-10",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0",
+      "browser": {
+        "name": "Firefox",
+        "version": "115.0"
+      },
+      "os": {
+        "name": "Windows",
+        "version": "NT 6.3"
+      },
+      "device_type": "computer",
+      "first_seen": "2026-04-29",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36",
+      "browser": {
+        "name": "Chrome",
+        "version": "140.0.0"
+      },
+      "os": {
+        "name": "Android",
+        "version": "10"
+      },
+      "device_type": "mobile",
+      "first_seen": "2026-04-29",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "browser": {
+        "name": "Chrome",
+        "version": "144.0.0"
+      },
+      "os": {
+        "name": "Windows",
+        "version": "NT 10.0"
+      },
+      "device_type": "computer",
+      "first_seen": "2026-04-29",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Mobile Safari/537.36 (Ecosia android@148.0.0.0)",
+      "browser": {
+        "name": "Chrome",
+        "version": "148.0.0"
+      },
+      "os": {
+        "name": "Android",
+        "version": "10"
+      },
+      "device_type": "mobile",
+      "first_seen": "2026-06-06",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Avast/148.0.0.0",
+      "browser": {
+        "name": "Chrome",
+        "version": "148.0.0"
+      },
+      "os": {
+        "name": "Windows",
+        "version": "NT 10.0"
+      },
+      "device_type": "computer",
+      "first_seen": "2026-06-14",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0",
+      "browser": {
+        "name": "Firefox",
+        "version": "150.0"
+      },
+      "os": {
+        "name": "Windows",
+        "version": "NT 10.0"
+      },
+      "device_type": "computer",
+      "first_seen": "2026-04-29",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_6_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/425.6.927981711 Mobile/15E148 Safari/604.1",
+      "browser": {
+        "name": "Google Search App",
+        "version": "425.6.927981711"
+      },
+      "os": {
+        "name": "iOS",
+        "version": "26 6 0"
+      },
+      "device_type": "mobile",
+      "first_seen": "2026-06-16",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.7.6 Mobile/15E148 Safari/604.1",
+      "browser": {
+        "name": "Safari",
+        "version": "18.7.6"
+      },
+      "os": {
+        "name": "iOS",
+        "version": "18 7"
+      },
+      "device_type": "mobile",
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 OPR/133.0.0.0",
+      "browser": {
+        "name": "Opera",
+        "version": "133.0.0"
+      },
+      "os": {
+        "name": "Linux",
+        "version": ""
+      },
+      "device_type": "computer",
+      "first_seen": "2026-06-06",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0",
+      "browser": {
+        "name": "Firefox",
+        "version": "148.0"
+      },
+      "os": {
+        "name": "Windows",
+        "version": "NT 10.0"
+      },
+      "device_type": "computer",
+      "first_seen": "2026-04-29",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (iPad; CPU OS 26_5_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/426.2.931869700 Mobile/15E148 Safari/604.1",
+      "browser": {
+        "name": "Google Search App",
+        "version": "426.2.931869700"
+      },
+      "os": {
+        "name": "iOS",
+        "version": "26 5 0"
+      },
+      "device_type": "tablet",
+      "first_seen": "2026-06-24",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36",
+      "browser": {
+        "name": "Chrome",
+        "version": "145.0.0"
+      },
+      "os": {
+        "name": "Android",
+        "version": "10"
+      },
+      "device_type": "mobile",
+      "first_seen": "2026-04-29",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0 TO-Browser/TOB7.150.0.411_01",
+      "browser": {
+        "name": "TO Browser",
+        "version": "7.150.0"
+      },
+      "os": {
+        "name": "Windows",
+        "version": "NT 10.0"
+      },
+      "device_type": "computer",
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36",
+      "browser": {
+        "name": "Chrome",
+        "version": "137.0.0"
+      },
+      "os": {
+        "name": "Android",
+        "version": "10"
+      },
+      "device_type": "mobile",
+      "first_seen": "2026-04-29",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 Edg/151.0.0.0",
+      "browser": {
+        "name": "Edge",
+        "version": "151.0.0"
+      },
+      "os": {
+        "name": "Windows",
+        "version": "NT 10.0"
+      },
+      "device_type": "computer",
+      "first_seen": "2026-06-12",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+      "browser": {
+        "name": "Chrome",
+        "version": "140.0.0"
+      },
+      "os": {
+        "name": "Windows",
+        "version": "NT 10.0"
+      },
+      "device_type": "computer",
+      "first_seen": "2026-05-01",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Mobile/15E148 Safari/604.1",
+      "browser": {
+        "name": "Safari",
+        "version": "26.2"
+      },
+      "os": {
+        "name": "iOS",
+        "version": "26 2"
+      },
+      "device_type": "mobile",
+      "first_seen": "2026-04-29",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0",
+      "browser": {
+        "name": "Edge",
+        "version": "146.0.0"
+      },
+      "os": {
+        "name": "Windows",
+        "version": "NT 10.0"
+      },
+      "device_type": "computer",
+      "first_seen": "2026-04-29",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0",
+      "browser": {
+        "name": "Firefox",
+        "version": "136.0"
+      },
+      "os": {
+        "name": "Windows",
+        "version": "NT 10.0"
+      },
+      "device_type": "computer",
+      "first_seen": "2026-05-01",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Windows NT 6.1; rv:109.0) Gecko/20100101 Firefox/115.0",
+      "browser": {
+        "name": "Firefox",
+        "version": "115.0"
+      },
+      "os": {
+        "name": "Windows",
+        "version": "NT 6.1"
+      },
+      "device_type": "computer",
+      "first_seen": "2026-04-29",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36",
+      "browser": {
+        "name": "Chrome",
+        "version": "144.0.0"
+      },
+      "os": {
+        "name": "Android",
+        "version": "10"
+      },
+      "device_type": "mobile",
+      "first_seen": "2026-04-29",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "browser": {
+        "name": "Chrome",
+        "version": "149.0.0"
+      },
+      "os": {
+        "name": "Chrome OS",
+        "version": "14541 0 0"
+      },
+      "device_type": "computer",
+      "first_seen": "2026-06-20",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/150.0.7871.34 Mobile/15E148 Safari/604.1",
+      "browser": {
+        "name": "Chrome",
+        "version": "150.0.7871"
+      },
+      "os": {
+        "name": "iOS",
+        "version": "26 5 1"
+      },
+      "device_type": "mobile",
+      "first_seen": "2026-06-20",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_6_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/149.0.7827.137 Mobile/15E148 Safari/604.1",
+      "browser": {
+        "name": "Chrome",
+        "version": "149.0.7827"
+      },
+      "os": {
+        "name": "iOS",
+        "version": "26 6 0"
+      },
+      "device_type": "mobile",
+      "first_seen": "2026-06-12",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1 OPT/6.5.3",
+      "browser": {
+        "name": "Opera Touch",
+        "version": "6.5.3"
+      },
+      "os": {
+        "name": "iOS",
+        "version": "26 5"
+      },
+      "device_type": "mobile",
+      "first_seen": "2026-06-14",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/150.0.7871.51 Mobile/15E148 Safari/604.1",
+      "browser": {
+        "name": "Chrome",
+        "version": "150.0.7871"
+      },
+      "os": {
+        "name": "iOS",
+        "version": "26 5 1"
+      },
+      "device_type": "mobile",
+      "first_seen": "2026-06-26",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+      "browser": {
+        "name": "Chrome",
+        "version": "139.0.0"
+      },
+      "os": {
+        "name": "Windows",
+        "version": "NT 10.0"
+      },
+      "device_type": "computer",
+      "first_seen": "2026-04-29",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 27_0_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/425.6.927981711 Mobile/15E148 Safari/604.1",
+      "browser": {
+        "name": "Google Search App",
+        "version": "425.6.927981711"
+      },
+      "os": {
+        "name": "iOS",
+        "version": "27 0 0"
+      },
+      "device_type": "mobile",
+      "first_seen": "2026-06-16",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6 Safari/605.1.15",
+      "browser": {
+        "name": "Safari",
+        "version": "26.6"
+      },
+      "os": {
+        "name": "macOS",
+        "version": ""
+      },
+      "device_type": "computer",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.4 Safari/605.1.15",
+      "browser": {
+        "name": "Safari",
+        "version": "26.4"
+      },
+      "os": {
+        "name": "macOS",
+        "version": ""
+      },
+      "device_type": "computer",
+      "first_seen": "2026-04-29",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 Edg/147.0.0.0",
+      "browser": {
+        "name": "Edge",
+        "version": "147.0.0"
+      },
+      "os": {
+        "name": "Windows",
+        "version": "NT 10.0"
+      },
+      "device_type": "computer",
+      "first_seen": "2026-04-29",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15 Ddg/26.5",
+      "browser": {
+        "name": "Safari",
+        "version": "26.5"
+      },
+      "os": {
+        "name": "macOS",
+        "version": ""
+      },
+      "device_type": "computer",
+      "first_seen": "2026-05-25",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (iPad; CPU OS 26_5_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/150.0.7871.51 Mobile/15E148 Safari/604.1",
+      "browser": {
+        "name": "Chrome",
+        "version": "150.0.7871"
+      },
+      "os": {
+        "name": "iOS",
+        "version": "26 5 0"
+      },
+      "device_type": "tablet",
+      "first_seen": "2026-06-26",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 27_0_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/426.2.931869700 Mobile/15E148 Safari/604.1",
+      "browser": {
+        "name": "Google Search App",
+        "version": "426.2.931869700"
+      },
+      "os": {
+        "name": "iOS",
+        "version": "27 0 0"
+      },
+      "device_type": "mobile",
+      "first_seen": "2026-06-24",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_7_9 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/425.6.927981711 Mobile/15E148 Safari/604.1",
+      "browser": {
+        "name": "Google Search App",
+        "version": "425.6.927981711"
+      },
+      "os": {
+        "name": "iOS",
+        "version": "18 7 9"
+      },
+      "device_type": "mobile",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-26"
     },
     {
       "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) EdgiOS/149.0.4022.80 Version/26.0 Mobile/15E148 Safari/604.1",
@@ -1948,105 +1850,35 @@
       },
       "device_type": "mobile",
       "first_seen": "2026-06-24",
-      "last_seen": "2026-06-24"
+      "last_seen": "2026-06-26"
     },
     {
-      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/28.0 Chrome/130.0.0.0 Mobile Safari/537.36",
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:151.0) Gecko/20100101 Firefox/151.0",
       "browser": {
-        "name": "Samsung Internet Browser",
-        "version": "28.0"
+        "name": "Firefox",
+        "version": "151.0"
       },
       "os": {
-        "name": "Android",
-        "version": "10"
-      },
-      "device_type": "mobile",
-      "first_seen": "2026-04-29",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_7_16 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6.2 Mobile/15E148 Safari/604.1",
-      "browser": {
-        "name": "Safari",
-        "version": "16.6.2"
-      },
-      "os": {
-        "name": "iOS",
-        "version": "16 7 16"
-      },
-      "device_type": "mobile",
-      "first_seen": "2026-06-10",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_5_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/424.4.924152415 Mobile/15E148 Safari/604.1",
-      "browser": {
-        "name": "Google Search App",
-        "version": "424.4.924152415"
-      },
-      "os": {
-        "name": "iOS",
-        "version": "26 5 0"
-      },
-      "device_type": "mobile",
-      "first_seen": "2026-06-10",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Mobile Safari/537.36",
-      "browser": {
-        "name": "Chrome",
-        "version": "142.0.0"
-      },
-      "os": {
-        "name": "Android",
-        "version": "10"
-      },
-      "device_type": "mobile",
-      "first_seen": "2026-04-29",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Mobile Safari/537.36 EdgA/150.0.0.0",
-      "browser": {
-        "name": "Edge",
-        "version": "150.0.0"
-      },
-      "os": {
-        "name": "Android",
-        "version": "10"
-      },
-      "device_type": "mobile",
-      "first_seen": "2026-06-22",
-      "last_seen": "2026-06-24"
-    },
-    {
-      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 YaBrowser/26.4.0.0 Safari/537.36",
-      "browser": {
-        "name": "Yandex Browser",
-        "version": "26.4.0"
-      },
-      "os": {
-        "name": "Windows",
-        "version": "NT 10.0"
+        "name": "macOS",
+        "version": "10 15"
       },
       "device_type": "computer",
-      "first_seen": "2026-06-08",
-      "last_seen": "2026-06-24"
+      "first_seen": "2026-05-19",
+      "last_seen": "2026-06-26"
     },
     {
-      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_6_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/426.2.931869700 Mobile/15E148 Safari/604.1",
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
       "browser": {
-        "name": "Google Search App",
-        "version": "426.2.931869700"
+        "name": "Chrome",
+        "version": "137.0.0"
       },
       "os": {
-        "name": "iOS",
-        "version": "26 6 0"
+        "name": "macOS",
+        "version": "10 15 7"
       },
-      "device_type": "mobile",
-      "first_seen": "2026-06-24",
-      "last_seen": "2026-06-24"
+      "device_type": "computer",
+      "first_seen": "2026-05-21",
+      "last_seen": "2026-06-26"
     },
     {
       "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36",
@@ -2060,7 +1892,49 @@
       },
       "device_type": "tablet",
       "first_seen": "2026-04-29",
-      "last_seen": "2026-06-24"
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:151.0) Gecko/20100101 Firefox/151.0",
+      "browser": {
+        "name": "Firefox",
+        "version": "151.0"
+      },
+      "os": {
+        "name": "Linux",
+        "version": ""
+      },
+      "device_type": "computer",
+      "first_seen": "2026-05-21",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/426.5.931869700 Mobile/15E148 Safari/604.1",
+      "browser": {
+        "name": "Google Search App",
+        "version": "426.5.931869700"
+      },
+      "os": {
+        "name": "iOS",
+        "version": "26 5 1"
+      },
+      "device_type": "mobile",
+      "first_seen": "2026-06-26",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1",
+      "browser": {
+        "name": "Safari",
+        "version": "18.5"
+      },
+      "os": {
+        "name": "iOS",
+        "version": "18 5"
+      },
+      "device_type": "mobile",
+      "first_seen": "2026-05-19",
+      "last_seen": "2026-06-26"
     },
     {
       "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36",
@@ -2074,7 +1948,49 @@
       },
       "device_type": "mobile",
       "first_seen": "2026-04-29",
-      "last_seen": "2026-06-24"
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Mobile Safari/537.36",
+      "browser": {
+        "name": "Chrome",
+        "version": "139.0.0"
+      },
+      "os": {
+        "name": "Android",
+        "version": "10"
+      },
+      "device_type": "mobile",
+      "first_seen": "2026-04-29",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0",
+      "browser": {
+        "name": "Firefox",
+        "version": "149.0"
+      },
+      "os": {
+        "name": "Windows",
+        "version": "NT 10.0"
+      },
+      "device_type": "computer",
+      "first_seen": "2026-04-29",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 EdgA/149.0.0.0",
+      "browser": {
+        "name": "Edge",
+        "version": "149.0.0"
+      },
+      "os": {
+        "name": "Android",
+        "version": "10"
+      },
+      "device_type": "tablet",
+      "first_seen": "2026-06-14",
+      "last_seen": "2026-06-26"
     },
     {
       "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3 Safari/605.1.15",
@@ -2088,21 +2004,105 @@
       },
       "device_type": "computer",
       "first_seen": "2026-04-29",
-      "last_seen": "2026-06-24"
+      "last_seen": "2026-06-26"
     },
     {
-      "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.4022.67",
+      "ua": "Mozilla/5.0 (Windows NT 10.0; rv:152.0) Gecko/20100101 Firefox/152.0",
       "browser": {
-        "name": "Edge",
-        "version": "149.0.4022"
+        "name": "Firefox",
+        "version": "152.0"
+      },
+      "os": {
+        "name": "Windows",
+        "version": "NT 10.0"
+      },
+      "device_type": "computer",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+      "browser": {
+        "name": "Chrome",
+        "version": "143.0.0"
       },
       "os": {
         "name": "Linux",
         "version": ""
       },
       "device_type": "computer",
-      "first_seen": "2026-06-20",
-      "last_seen": "2026-06-24"
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Linux; Android 16; SM-S918B Build/BP4A.251205.006; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/149.0.7827.91 Mobile Safari/537.36",
+      "browser": {
+        "name": "Android WebView",
+        "version": "149.0.7827"
+      },
+      "os": {
+        "name": "Android",
+        "version": "16"
+      },
+      "device_type": "mobile",
+      "first_seen": "2026-06-26",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/425.6.927981711 Mobile/15E148 Safari/604.1",
+      "browser": {
+        "name": "Google Search App",
+        "version": "425.6.927981711"
+      },
+      "os": {
+        "name": "iOS",
+        "version": "26 4 2"
+      },
+      "device_type": "mobile",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_6_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/426.2.931869700 Mobile/15E148 Safari/604.1",
+      "browser": {
+        "name": "Google Search App",
+        "version": "426.2.931869700"
+      },
+      "os": {
+        "name": "iOS",
+        "version": "26 6 0"
+      },
+      "device_type": "mobile",
+      "first_seen": "2026-06-24",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Android 16; Mobile; rv:154.0) Gecko/154.0 Firefox/154.0",
+      "browser": {
+        "name": "Firefox",
+        "version": "154.0"
+      },
+      "os": {
+        "name": "Android",
+        "version": "16"
+      },
+      "device_type": "mobile",
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-26"
+    },
+    {
+      "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/28.0 Chrome/130.0.0.0 Mobile Safari/537.36",
+      "browser": {
+        "name": "Samsung Internet Browser",
+        "version": "28.0"
+      },
+      "os": {
+        "name": "Android",
+        "version": "10"
+      },
+      "device_type": "mobile",
+      "first_seen": "2026-04-29",
+      "last_seen": "2026-06-26"
     }
   ],
   "_meta": {
